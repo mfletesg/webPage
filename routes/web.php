@@ -22,3 +22,8 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home2');
 });
+
+
+Route::get('/home3', function () {
+    return view('home3');
+});

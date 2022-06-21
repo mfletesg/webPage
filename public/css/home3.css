@@ -1,0 +1,90 @@
+.jumbotron-about{
+  width: 100%;
+  height: 100vh !important;
+  background-color: transparent ;
+  background: rgba(0, 0, 0, 0.7) url(../img/IMG_3164.jpg) top center;
+  background-size: cover;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  display: grid;
+  background-blend-mode: darken;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.container-about{
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  text-align: left;
+}
+
+.container-about h1{
+  color: #ffffff;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 50px;
+}
+
+
+.container-about label{
+  font-size: 20px;
+}
+
+.container-about p{
+  color: #ffffff;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 30px;
+}
+
+.profile-user-img-style{
+  border: 3px solid #275f97;
+}
+
+.card-profile{
+  box-shadow:  none;
+  background-color: transparent;
+}
+
+.profile-username-style{
+  color: #ffffff;
+}
+
+
+.sidebar-profile{
+  background-color: #061025;
+}
+
+
+.circle {
+  width: 45px;
+  height: 44px;
+  background-color: #222;
+  border-radius: 100px;
+  position: fixed;
+  left: 90vw;
+  right: 0vw;
+  top: 87vh;
+  bottom: 0;
+  margin: auto;
+}
+
+
+.content-about{
+  padding-top: 80px !important;
+  padding-left: 8% !important;
+  padding-right: 8% !important;
+  padding-bottom: 80px !important;
+  background-color: #0d1f33;
+}
+
+.content-about h2{
+  color: #ffffff;
+}
+
+.content-about p{
+  color: #ffffff;
+}
+
