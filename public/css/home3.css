@@ -17,7 +17,8 @@
   align-items: center;
   align-content: center;
   align-self: center;
-  text-align: left;
+  text-align: center;
+
 }
 
 .container-about h1{
@@ -25,11 +26,13 @@
   padding-left: 20%;
   padding-right: 20%;
   font-size: 50px;
+
 }
 
 
 .container-about label{
   font-size: 20px;
+
 }
 
 .container-about p{
@@ -37,10 +40,22 @@
   padding-left: 20%;
   padding-right: 20%;
   font-size: 30px;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-color: #417EFA;
+  text-decoration-thickness: 4px;
+
 }
 
 .profile-user-img-style{
-  border: 3px solid #275f97;
+  border: 3px solid #417EFA;
+  width: 160px;
+}
+
+.profile-user-img-style:hover{
+  border: 3px solid #77A2F9;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 10px 2px rgba(28, 81, 240, 0.71), 0 2px 5px 2px rgba(0, 0, 0, 0.12), 0 4px 4px -4px rgba(28, 81, 240, 0.71);
 }
 
 .card-profile{
@@ -55,6 +70,7 @@
 
 .sidebar-profile{
   background-color: #061025;
+  position: fixed;
 }
 
 
@@ -73,18 +89,323 @@
 
 
 .content-about{
-  padding-top: 80px !important;
+  padding-top: 100px !important;
   padding-left: 8% !important;
   padding-right: 8% !important;
-  padding-bottom: 80px !important;
+  padding-bottom: 150px !important;
   background-color: #0d1f33;
 }
 
 .content-about h2{
   color: #ffffff;
+  font-size: 29px;
 }
 
 .content-about p{
   color: #ffffff;
+  font-size: 20px;
 }
 
+.sidebar-dark-primary{
+  background-color: #061025;
+}
+
+.subtitle-content-about{
+  color: #4689DA;
+}
+
+.content-about strong{
+  color:  #ffffff;
+  font-size: 17px;
+
+}
+
+.content-about span{
+  color:  #ffffff;
+  font-size: 17px;
+}
+
+.content-about li{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.profile-username-style{
+  padding-top: 10px;
+  font-size: 22px;
+}
+
+.content-skills{
+  padding-top: 100px !important;
+  padding-left: 8% !important;
+  padding-right: 8% !important;
+  padding-bottom: 100px !important;
+  background-image:  url(../img/svg1.svg) ;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1000;
+  margin-top: -100px;
+  background-repeat: no-repeat;
+}
+
+
+.skills{
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+  margin-top: 12px;
+}
+.skills .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #149ddd;
+}
+
+.skill{
+  margin-top: 10px !important;
+  height: 20px;
+}
+
+
+.progressTextContainer{
+  align-self: center;
+  align-content: center;
+  align-items: center;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #5614DD;
+}
+
+.svgTecnologies{
+  width: 20px;
+}
+
+.svgIONIC{
+  width: 35px;
+}
+
+.iconTecnologies{
+  font-size: 14px;
+  color: blue;
+}
+
+.skills-backgroundTop{
+
+}
+
+
+
+
+#bar {
+    text-align: center;
+    width: 750px;
+    height: 25px;
+    background-color: #e4e3e5;
+    margin: 0 auto;
+    font-family: monospace;
+    padding: auto;
+    float: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#button-red {
+    background-color: #f96256;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    left: -47%;
+    bottom: -20%;
+    position:relative;
+}
+
+#button-yellow {
+    background-color: #fdbc3d;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    left: -44%;
+    bottom: 40%;
+    position:relative;
+    display: block;
+}
+
+#button-green {
+    background-color: #33c948;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    left: -41%;
+    bottom: 99%;
+    position:relative;
+    display: block;
+}
+
+
+.about-title{
+  text-align: center;
+  padding-bottom: 19px;
+}
+
+#screen {
+    background-color: #000000;
+    width: 750px;
+    height: 450px;
+    border-radius: 0 0 4px 4px;
+    margin: 0 auto;
+    padding-top: 20px;
+  
+  box-shadow: 0px 20px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
+}
+
+#screen .command {
+    margin: 0;
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: left;
+    position: static;
+    padding-left: 30px
+}
+
+#screen .command::before {
+  content: "miguel@root: ~ $ ";
+  color:  #1EEF0E;
+}
+
+
+#screen .response {
+    margin: 0 0 25px 0;
+    color: #FBDB5A;
+    font-family: monospace;
+    font-size: 15px;
+    text-align: left;
+    position: static;
+    padding-left: 30px;
+}
+
+#screen .array::before {
+  content: "[";
+}
+
+#screen .array::after {
+  content: "]";
+}
+
+#screen .array .array-element::before {
+  content: "\"";
+}
+
+#screen .array .array-element::after {
+  content: "\"";
+}
+
+#screen a {
+  background-color: #000000;
+  color: #FBDB5A;
+  text-decoration: none;
+}
+
+#screen a:hover {
+  color: #FFFFFF;
+}
+
+#screen .cursor {
+  background: hsla(0, 0%, 97%, .65);
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+
+@media (max-width: 900px) {
+  .container-about h1{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .container-about p{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .profile-user-img-style{
+    width: 120px;
+  }
+
+  .container-about h1{
+    font-size: 30px;
+  }
+
+  .subTitleInfo{
+    font-size: 15px !important;
+  }
+
+  .container-about p{
+    font-size: 20px;
+  }
+
+  #textAbout{
+    font-size: 20px;
+  }
+
+  #bar {
+    width: 100%;
+  }
+
+  #screen{
+    width: 100%;
+    height: auto;
+  }
+
+  .command{
+    padding-right: 20px !important;
+  }
+
+  #screen .response{
+    padding-right: 20px !important;
+  }
+
+  #button-red{
+    
+  }
+
+
+}

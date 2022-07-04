@@ -37,6 +37,11 @@
 
 
 	<script src="{{URL::asset('assets/vendor/typed.js/typed.min.js')}}" type="text/javascript"></script>
+
+	<script src="{{URL::asset('assets/vendor/glightbox/js/glightbox.min.js')}}" type="text/javascript"></script>
+	<script src="{{URL::asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}" type="text/javascript"></script>
+	<script src="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.js')}}" type="text/javascript"></script>
+	<script src="{{URL::asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script>
 	<!-- Page specific script -->
 	<script>
 	$(function () {
@@ -60,6 +65,25 @@
 		    });
 		  }
 
+
+	    // let skilsContent = select('.skills-content');
+	    skilsContent = document.getElementsByClassName('skills-content')
+
+	    for (var i = 0; i < skilsContent.length; i++) {
+	    	if (skilsContent[i]) {
+			    new Waypoint({
+			      element: skilsContent[i],
+			      offset: '80%',
+			      handler: function(direction) {
+			        let progress = select('.progress .progress-bar', true);
+			        progress.forEach((el) => {
+			          el.style.width = el.getAttribute('aria-valuenow') + '%'
+			        });
+			      }
+			    })
+			  }
+
+	    }
 
 		})
 		</script>

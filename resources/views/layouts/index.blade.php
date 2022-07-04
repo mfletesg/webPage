@@ -43,7 +43,7 @@
    	<script src="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.js')}}" type="text/javascript"></script>
    	<script src="{{URL::asset('assets/vendor/typed.js/typed.min.js')}}" type="text/javascript"></script>
    	<script src="{{URL::asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script>
-   	<script src="{{URL::asset('assets/vendor/php-email-form/validate.js')}}" type="text/javascript"></script>
+   	{{-- <script src="{{URL::asset('assets/vendor/php-email-form/validate.js')}}" type="text/javascript"></script> --}}
    	<script src="{{URL::asset('js/main.js')}}" type="text/javascript"></script>
 
 </body>

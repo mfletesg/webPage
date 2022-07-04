@@ -89,6 +89,9 @@
     </section><!-- End About Section -->
 
 
+    <section  class="skills-backgroundTop"></section>
+
+
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
