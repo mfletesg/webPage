@@ -90,8 +90,8 @@
 
 .content-about{
   padding-top: 100px !important;
-  padding-left: 8% !important;
-  padding-right: 8% !important;
+  padding-left: 7% !important;
+  padding-right: 7% !important;
   padding-bottom: 150px !important;
   background-color: #0d1f33;
 }
@@ -286,8 +286,10 @@
     border-radius: 0 0 4px 4px;
     margin: 0 auto;
     padding-top: 20px;
-  
-  box-shadow: 0px 20px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
+    box-shadow: 0px 20px 100px rgba(50,50,93,.15), 0 15px 35px rgba(50,50,93,.2), 0 5px 15px rgba(0,0,0,.12);
+    display: block;
+    position: relative;
+    z-index: 2;
 }
 
 #screen .command {
@@ -297,7 +299,7 @@
     font-size: 15px;
     text-align: left;
     position: static;
-    padding-left: 30px
+    padding-left: 30px;
 }
 
 #screen .command::before {
@@ -347,9 +349,303 @@
   animation: blinker 1s linear infinite;
 }
 
+.button-windows{
+  display:  contents;
+/*  align-items: center;
+  align-self: center;
+  align-content: center;*/
+}
+
 @keyframes blinker {  
   50% { opacity: 0; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box div {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 6px solid rgba(255,255,255,0.8);
+
+}
+
+.box div:nth-child(1) {
+  top: 12%;
+  left: 42%;
+  animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2) {
+  top: 70%;
+  left: 50%;
+  animation: animate 7s linear infinite;
+}
+.box div:nth-child(3) {
+  top: 17%;
+  left: 6%;
+  animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(4) {
+  top: 20%;
+  left: 60%;
+  animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(5) {
+  top: 67%;
+  left: 10%;
+  animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(6) {
+  top: 80%;
+  left: 70%;
+  animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(7) {
+  top: 60%;
+  left: 80%;
+  animation: animate 15s linear infinite;
+}
+
+.box div:nth-child(8) {
+  top: 32%;
+  left: 25%;
+  animation: animate 16s linear infinite;
+}
+
+.box div:nth-child(9) {
+  top: 90%;
+  left: 25%;
+  animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(10) {
+  top: 20%;
+  left: 80%;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0) translateY(-90px) rotate(360deg);
+    opacity: 1;
+  }
+  
+  100% {
+    transform: scale(1.3) translateY(-90px) rotate(-180deg);
+    border-radius: 50%;
+    opacity: 0;
+  }
+}
+
+
+.text-footer{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.main-footer{
+  background-color: #011041;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-icons {
+  display: inline-flex;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 2.5rem;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+.social-icon:hover {
+  color: #fff;
+}
+.social-icon:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, -150%);
+}
+.social-icon:active {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+}
+.social-icon--linkedin {
+  background: #006599;
+  color: #fff;
+}
+.social-icon--linkedin .tooltip {
+  background: #006599;
+  color: currentColor;
+}
+.social-icon--linkedin .tooltip:after {
+  border-top-color: #006599;
+}
+.social-icon--twitter {
+  background: #2b97f1;
+  color: #fff;
+}
+.social-icon--twitter .tooltip {
+  background: #2b97f1;
+  color: currentColor;
+}
+.social-icon--twitter .tooltip:after {
+  border-top-color: #2b97f1;
+}
+.social-icon--codepen {
+  background: #000;
+  color: #fff;
+}
+.social-icon--codepen .tooltip {
+  background: #000;
+  color: currentColor;
+}
+.social-icon--codepen .tooltip:after {
+  border-top-color: #000;
+}
+.social-icon--facebook {
+  background: #3b5a9b;
+  color: #fff;
+}
+.social-icon--facebook .tooltip {
+  background: #3b5a9b;
+  color: currentColor;
+}
+.social-icon--facebook .tooltip:after {
+  border-top-color: #3b5a9b;
+}
+.social-icon--instagram {
+  background: #527fa6;
+  color: #fff;
+}
+.social-icon--instagram .tooltip {
+  background: #527fa6;
+  color: currentColor;
+}
+.social-icon--instagram .tooltip:after {
+  border-top-color: #527fa6;
+}
+.social-icon--dribbble {
+  background: #ef5a92;
+  color: #fff;
+}
+.social-icon--dribbble .tooltip {
+  background: #ef5a92;
+  color: currentColor;
+}
+.social-icon--dribbble .tooltip:after {
+  border-top-color: #ef5a92;
+}
+.social-icon--github {
+  background: #4284c0;
+  color: #fff;
+}
+.social-icon--github .tooltip {
+  background: #4284c0;
+  color: currentColor;
+}
+.social-icon--github .tooltip:after {
+  border-top-color: #4284c0;
+}
+.social-icon i {
+  position: relative;
+  top: 1px;
+}
+
+/* Tooltips */
+.tooltip {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 0.8rem 1rem;
+  border-radius: 40px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  opacity: 0;
+  pointer-events: none;
+  text-transform: uppercase;
+  transform: translate(-50%, -100%);
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+.tooltip:after {
+  display: block;
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  content: "";
+  border: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: transparent;
+  transform: translate(-50%, 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 900px) {
@@ -393,6 +689,8 @@
   #screen{
     width: 100%;
     height: auto;
+    padding-bottom: 15px;
+
   }
 
   .command{
@@ -403,9 +701,47 @@
     padding-right: 20px !important;
   }
 
-  #button-red{
-    
+  #bar{
+    text-align: left;
   }
 
 
+  .button-windows{
+    display: inline-flex;
+    padding-left: 15px;
+    padding-top: 5px;
+
+/*    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;*/
+  }
+
+  #button-red{
+    display: block;
+    left: unset;
+
+  }
+
+  #button-yellow{
+    display: block;
+    left: unset;
+    margin-left: 5px;
+  }
+
+  #button-green{
+    display: block;
+    left: unset;
+    margin-left: 5px;
+  }
+
+
+}
+
+
+@media (max-width: 450px) {
+  .content-about{
+    padding-left: 17px !important;
+    padding-right: 17px  !important;
+  }
 }

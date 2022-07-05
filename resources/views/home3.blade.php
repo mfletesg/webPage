@@ -6,7 +6,7 @@
 
 	
 
-  {{-- <a class="nav-link circle" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a> --}}
+  {{-- <a class="nav-link circle" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>  --}}
 
 
   <!-- Main Sidebar Container -->
@@ -35,54 +35,133 @@
 
           <h1>Miguel Fletes <label class="subTitleInfo">(Mike Fletes)</label></h1> 
           <p>I'm <span class="typed" id="textAbout" data-typed-items="❤️ Open Source, Developer Laravel, Developer Vtex.IO, Developer IONIC, Developer React, Developer Angular"></span></p>
+
+          <div class="social-icons">
+            <a class="social-icon social-icon--codepen">
+              <i class="fa fa-codepen"></i>
+              <div class="tooltip">Codepen</div>
+            </a>
+            <a class="social-icon social-icon--github">
+              <i class="fa fa-github"></i>
+              <div class="tooltip">Github</div>
+            </a>
+            <a class="social-icon social-icon--twitter">
+              <i class="fa fa-twitter"></i>
+              <div class="tooltip">Twitter</div>
+            </a>
+            <a class="social-icon social-icon--dribbble">
+              <i class="fa fa-dribbble"></i>
+              <div class="tooltip">Dribbble</div>
+            </a>
+            <a class="social-icon social-icon--instagram">
+              <i class="fa fa-instagram"></i>
+              <div class="tooltip">Instagram</div>
+            </a>
+            <a class="social-icon social-icon--linkedin">
+              <i class="fa fa-linkedin"></i>
+              <div class="tooltip">LinkedIn</div>
+            </a>
+            <a class="social-icon social-icon--facebook">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <div class="tooltip">Facebook</div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
 
 
+
+
     <section class="content content-about">
+
+
+
+
+
       <div class="container-fluid">
+
+
+                           
+
+
+
         <div class="row">
           <!-- left column -->
+
+
+
           <div class="col-md-12">
+
+           <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+
+
 
 
             <h2 class="about-title">About</h2>
 
-            <div id="bar">
-              <div id="button-red"></div>
-              <div id="button-yellow"></div>
-              <div id="button-green"></div>
-            </div>
-            <div id="screen">
-              <p class="command">about</p>
-              <p class="response"><b>Web Developer Full Stack</b> graduated from Instituto Tecnológicode Colima as a Computer Engineer specializing in <b>"High Performance Software"</b>, passionate about Open Source technologies.</p>
 
-              <p class="command">city</p>
-              <p class="response array">
-                <a class="array-element" href="#">📍Villa de Alvarez Colima MX</a>,
-                <a class="array-element" href="#">📍Nicolas Romero Estado de Mexico MX</a>
-              </p>
+            <div  data-aos="fade-up"
+    data-aos-offset="0"
+    data-aos-delay="50"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="false"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-top top-bottom center-center">
+              <div id="bar">
+                <div class="button-windows">
+                  <div id="button-red"></div>
+                  <div id="button-yellow"></div>
+                  <div id="button-green"></div>
+                </div>
 
-             
-              <p class="command">age</p>
-              <p class="response"><b>27 years</p>
+              </div>
 
+              <div id="screen">
+                <p class="command">about</p>
+                <p class="response"><b>Web Developer Full Stack</b> graduated from Instituto Tecnológicode Colima as a Computer Engineer specializing in <b>"High Performance Software"</b>, passionate about Open Source technologies.</p>
 
-              <p class="command">email</p>
-              <p class="response"><b>mfletesg@outlook.com</p>  
+                <p class="command">city</p>
+                <p class="response array">
+                  <a class="array-element" href="#">📍Villa de Alvarez Colima MX</a>,
+                  <a class="array-element" href="#">📍Nicolas Romero Estado de Mexico MX</a>
+                </p>
 
-
-              <p class="command">github</p>
-              <p class="response ">
-                <a class="array-element" href="https://github.com/mfletesg" target="_blank">https://github.com/mfletesg</a>            
-              </p>
                
+                <p class="command">age</p>
+                <p class="response"><b>27 years</p>
+
+
+                <p class="command">email</p>
+                <p class="response"><b>mfletesg@outlook.com</p>  
+
+
+                <p class="command">github</p>
+                <p class="response ">
+                  <a class="array-element" href="https://github.com/mfletesg" target="_blank">https://github.com/mfletesg</a>            
+                </p>
+                 
+                
+                <p class="command">
+                  <span class="cursor">&nbsp</span> 
+                </p>
+              </div>
               
-              <p class="command">
-                <span class="cursor">&nbsp</span> 
-              </p>
+
             </div>
 
           </div>
@@ -91,7 +170,7 @@
       </div><!-- /.container-fluid -->
     </section>
 
-    {{-- <section  class="skills-backgroundTop"></section> --}}
+    {{-- <section  class="skills-backgroundTop"></section>
 
     {{-- <section id="skills" class="content content-skills skills section-bg"> --}}<section id="skills" class="content  skills section-bg">
       <div class="container ">
@@ -284,10 +363,7 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <div class="float-right d-none d-sm-block">
-      <b>Version</b> 3.2.0
-    </div>
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    <p class="text-footer">Make with ❤️ Open Source</p>
   </footer>
 
   <!-- Control Sidebar -->

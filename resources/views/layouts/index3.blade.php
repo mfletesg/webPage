@@ -17,6 +17,9 @@
 
   <!-- Theme style -->
   <link rel="stylesheet" href="{{URL::asset('css/home3.css')}}">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -42,6 +45,14 @@
 	<script src="{{URL::asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}" type="text/javascript"></script>
 	<script src="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.js')}}" type="text/javascript"></script>
 	<script src="{{URL::asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script>
+
+
+	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
 	<!-- Page specific script -->
 	<script>
 	$(function () {
@@ -65,25 +76,33 @@
 		    });
 		  }
 
+		 	const select = (el, all = false) => {
+		    el = el.trim()
+		    if (all) {
+		      return [...document.querySelectorAll(el)]
+		    } else {
+		      return document.querySelector(el)
+		    }
+		  }
+
+		  let skilsContent = select('.skills-content');
+		  if (skilsContent) {
+		    new Waypoint({
+		      element: skilsContent,
+		      offset: '80%',
+		      handler: function(direction) {
+		        let progress = select('.progress .progress-bar', true);
+		        progress.forEach((el) => {
+		          el.style.width = el.getAttribute('aria-valuenow') + '%'
+		        });
+		      }
+		    })
+		  }
+
 
 	    // let skilsContent = select('.skills-content');
-	    skilsContent = document.getElementsByClassName('skills-content')
 
-	    for (var i = 0; i < skilsContent.length; i++) {
-	    	if (skilsContent[i]) {
-			    new Waypoint({
-			      element: skilsContent[i],
-			      offset: '80%',
-			      handler: function(direction) {
-			        let progress = select('.progress .progress-bar', true);
-			        progress.forEach((el) => {
-			          el.style.width = el.getAttribute('aria-valuenow') + '%'
-			        });
-			      }
-			    })
-			  }
 
-	    }
 
 		})
 		</script>
