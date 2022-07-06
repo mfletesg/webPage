@@ -46,6 +46,8 @@
 	<script src="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.js')}}" type="text/javascript"></script>
 	<script src="{{URL::asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script>
 
+	<script src="https://kit.fontawesome.com/9b26a92da5.js" crossorigin="anonymous"></script>
+
 
 	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
