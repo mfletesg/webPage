@@ -374,13 +374,19 @@
 }
 
 .content-contact{
-  padding-top: 60px !important;
-  padding-bottom: 60px !important;
+  padding-top: 90px !important;
+  padding-bottom: 90px !important;
 }
 
 .titleContact{
   color: #FFFFFF;
   text-align: center;
+  font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.textContact{
+  color: #38BCE8;
+  font-size: 20px;
 }
 
 .inputContact{
