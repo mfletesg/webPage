@@ -281,6 +281,13 @@
                                         </form>
                                     </div>
                                 </div>
+                                <div class="col-sm-6 col-lg-4 col-img-contact">
+
+                                  <div class="avatar">
+                                    <img src="{{URL::asset('img/langfr-220px-GNOME_Terminal_icon_2019.svg.png')}}" class="img-fluid mb-2" alt="white sample">
+                                  </div>
+                                  
+                                </div>
                             </div>
                         </div>
                     </div>

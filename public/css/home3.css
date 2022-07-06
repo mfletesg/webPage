@@ -583,7 +583,65 @@
 
 
 
+@-webkit-keyframes float {
+  0% {
+    box-shadow: none;
+    transform: translatey(0px);
+  }
+  50% {
 
+    transform: translatey(-40px);
+  }
+  100% {
+    box-shadow: none;
+    transform: translatey(0px);
+  }
+}
+
+
+@keyframes float {
+  0% {
+    box-shadow: none;
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: none;
+    transform: translatey(-40px);
+  }
+  100% {
+    box-shadow: none;
+    transform: translatey(0px);
+  }
+}
+.container {
+
+
+}
+
+.avatar {
+
+  overflow: hidden;
+  transform: translatey(0px);
+  -webkit-animation: float 6s ease-in-out infinite;
+          animation: float 6s ease-in-out infinite;
+            align-items: center;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+}
+.avatar img {
+  width: 50%;
+  height: auto;
+
+}
+
+.col-img-contact{
+  display: block;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+
+}
 
 
 
