@@ -13,7 +13,7 @@
 
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  @env
+  {{-- @env --}}
 	  <!-- Font Awesome -->
 	  <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
 
@@ -23,7 +23,7 @@
 	  <!-- Theme style -->
 	  <link rel="stylesheet" href="{{asset('css/home3.css')}}">
 
-  @endenv
+  {{-- @endenv --}}
 
   @production
     <link rel="stylesheet" href="{{ secure_asset('plugins/jquery/jquery.min.js') }}">
@@ -48,7 +48,7 @@
 
 	<!-- jQuery -->
 
-	 @env
+	 {{-- @env --}}
 	<script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
 	{{-- <script src="{{ secure_asset('plugins/jquery/jquery.min.js') }}"></script> --}}
 
@@ -69,7 +69,7 @@
 	<script src="{{asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}" type="text/javascript"></script>
 	<script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}" type="text/javascript"></script>
 	<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script>
-	@endenv
+{{-- 	@endenv --}}
 
 	@production
     <link rel="stylesheet" href="{{ secure_asset('plugins/jquery/jquery.min.js') }}">
