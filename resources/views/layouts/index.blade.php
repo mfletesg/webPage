@@ -49,18 +49,10 @@
 	<!-- jQuery -->
 
 	 {{-- @env --}}
-	<script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
-	{{-- <script src="{{ secure_asset('plugins/jquery/jquery.min.js') }}"></script> --}}
-
-	
-	<!-- Bootstrap 4 -->
+	{{-- <script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
 	<script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-	<!-- bs-custom-file-input -->
 	<script src="{{asset('plugins/bs-custom-file-input/bs-custom-file-input.min.js')}}"></script>
-	<!-- AdminLTE App -->
 	<script src="{{asset('dist/js/adminlte.min.js')}}"></script>
-	<!-- AdminLTE for demo purposes -->
-	{{-- <script src="{{URL::asset('dist/js/demo.js')}}"></script> --}}
 
 
 	<script src="{{asset('assets/vendor/typed.js/typed.min.js')}}" type="text/javascript"></script>
@@ -68,7 +60,7 @@
 	<script src="{{asset('assets/vendor/glightbox/js/glightbox.min.js')}}" type="text/javascript"></script>
 	<script src="{{asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}" type="text/javascript"></script>
 	<script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}" type="text/javascript"></script>
-	<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script>
+	<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script> --}}
 {{-- 	@endenv --}}
 
 	@production
