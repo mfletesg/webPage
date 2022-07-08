@@ -15,13 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     // return view('home');
-    return view('home3');
+    return view('home');
 });
 
 
 
 Route::get('/home', function () {
-    return view('home2');
+    return view('home');
 });
 
 
