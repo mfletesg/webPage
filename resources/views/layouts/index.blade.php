@@ -28,7 +28,12 @@
 
 
 	<!-- jQuery -->
+
+
 	<script src="{{URL::asset('plugins/jquery/jquery.min.js')}}"></script>
+	{{-- <script src="{{ secure_asset('plugins/jquery/jquery.min.js') }}"></script> --}}
+
+	
 	<!-- Bootstrap 4 -->
 	<script src="{{URL::asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 	<!-- bs-custom-file-input -->
@@ -45,6 +50,19 @@
 	<script src="{{URL::asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}" type="text/javascript"></script>
 	<script src="{{URL::asset('assets/vendor/swiper/swiper-bundle.min.js')}}" type="text/javascript"></script>
 	<script src="{{URL::asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script>
+
+
+	@production
+    <link rel="stylesheet" href="{{ secure_asset('plugins/jquery/jquery.min.js') }}">
+    <link rel="stylesheet" href="{{ secure_asset('plugins/bootstrap/js/bootstrap.bundle.min.js') }}">
+    <link rel="stylesheet" href="{{ secure_asset('plugins/bs-custom-file-input/bs-custom-file-input.min.js') }}">
+    <link rel="stylesheet" href="{{ secure_asset('dist/js/adminlte.min.js') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/vendor/typed.js/typed.min.js') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/vendor/glightbox/js/glightbox.min.js') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/vendor/swiper/swiper-bundle.min.js') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/vendor/waypoints/noframework.waypoints.js') }}">
+	@endproduction
 
 	<script src="https://kit.fontawesome.com/9b26a92da5.js" crossorigin="anonymous"></script>
 
