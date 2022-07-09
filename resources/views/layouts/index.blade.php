@@ -42,8 +42,8 @@
 	<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script> --}}
 
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+	<script src="{{secure_asset('plugins/jquery/jquery.min.js')}}"></script>
 	<script src="{{secure_asset('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 	<script src="{{secure_asset('plugins/bs-custom-file-input/bs-custom-file-input.min.js') }}"></script>
 	<script src="{{secure_asset('dist/js/adminlte.min.js') }}"></script>
