@@ -23,7 +23,8 @@
   <link rel="stylesheet" href="{{secure_asset('plugins/fontawesome-free/css/all.min.css')}}">
   <link rel="stylesheet" href="{{secure_asset('dist/css/adminlte.min.css')}}">
   <link rel="stylesheet" href="{{secure_asset('css/home3.css')}}">
-  <link rel="stylesheet" href="{{secure_asset('plugins/jquery/jquery.min.js') }}">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  {{-- <link rel="stylesheet" href="{{secure_asset('plugins/jquery/jquery.min.js') }}"> --}}
 
 
 
