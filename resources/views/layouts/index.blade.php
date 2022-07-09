@@ -62,7 +62,17 @@
 
 
 	  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
+
+
+
+
+	</head>
+	<body>
+		@yield('content')
+
+
+
+		  <script>
     AOS.init();
   </script>
 
@@ -124,12 +134,6 @@
 
 		})
 		</script>
-
-
-
-	</head>
-	<body>
-		@yield('content')
 	</body>
 
 </html>
