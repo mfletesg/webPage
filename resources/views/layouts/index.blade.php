@@ -74,7 +74,9 @@
 
 
 	<script type="text/javascript">
-		window.addEventListener('load', () => {
+
+
+		$(document).ready(function() {
 			const typed = document.getElementById('textAbout');
 		  if (typed) {
 		    let typed_strings = typed.getAttribute('data-typed-items')
@@ -110,6 +112,8 @@
 		      }
 		    })
 		  }
+		});
+		window.addEventListener('load', () => {
 
 
 	    // let skilsContent = select('.skills-content');
