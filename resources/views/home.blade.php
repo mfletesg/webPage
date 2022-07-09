@@ -91,10 +91,10 @@
         </div><!-- /.container-fluid -->
       </section>
       <section id="skills" class="content   skills section-bg">
-        <div class="container ">
+        <div class="container container-skills">
           <div class="section-title">
             <h2 class="skills-title">Skills</h2>
-            <p>My skills are based on Full Stack development for mobile and web applications, I also design vector drawings and designs for smart watches</p>
+            <p class="skills-description">My skills are based on Full Stack development for mobile and web applications, I also design vector drawings and designs for smart watches</p>
           </div>
           <div class="row skills-content">
             <div class="col-lg-6" data-aos="fade-up">

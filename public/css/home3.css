@@ -205,6 +205,10 @@
   background-color: #5614DD;
 }
 
+.skills-description{
+  text-align: justify;
+}
+
 .svgTecnologies{
   width: 20px;
 }
@@ -897,6 +901,13 @@
 
 }
 
+
+@media (max-width: 620px) {
+  .container-skills{
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
 
 @media (max-width: 450px) {
   .content-about{
