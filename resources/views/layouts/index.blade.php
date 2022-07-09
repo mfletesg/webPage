@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="{{secure_asset('plugins/fontawesome-free/css/all.min.css')}}">
   <link rel="stylesheet" href="{{secure_asset('dist/css/adminlte.min.css')}}">
   <link rel="stylesheet" href="{{secure_asset('css/home3.css')}}">
+  <link rel="stylesheet" href="{{secure_asset('plugins/jquery/jquery.min.js') }}">
 
 
 
@@ -44,7 +45,7 @@
 	<script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}" type="text/javascript"></script>
 	<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script> --}}
 
-  <link rel="stylesheet" href="{{ secure_asset('plugins/jquery/jquery.min.js') }}">
+  
   <link rel="stylesheet" href="{{ secure_asset('plugins/bootstrap/js/bootstrap.bundle.min.js') }}">
   <link rel="stylesheet" href="{{ secure_asset('plugins/bs-custom-file-input/bs-custom-file-input.min.js') }}">
   <link rel="stylesheet" href="{{ secure_asset('dist/js/adminlte.min.js') }}">
