@@ -226,7 +226,7 @@
           </div>
         </div>
       </section>
-      {{-- <section id="contact" class="content content-contact resume section-bg">
+      <section id="contact" class="content content-contact resume section-bg">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -289,7 +289,7 @@
               </div>
             </div>
           </div>
-      </section> --}}
+      </section>
       <!-- Main content -->
       <!-- /.content -->
     </div>
