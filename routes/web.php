@@ -1,6 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route  as Route;
+use Illuminate\Support\Facades\Route as Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,13 +19,8 @@ Route::get('/', function () {
     return view('home');
 });
 
-
-
 Route::get('/home', function () {
     return view('home');
 });
 
-
-// Route::get('/home3', function () {
-//     return view('home3');
-// });
+Route::resource('contact', ContactController::class);

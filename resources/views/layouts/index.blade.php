@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="csrf-token" content="{{ csrf_token() }}" />
 	<title>Miguel Fletes</title>
 
 
@@ -40,6 +41,7 @@
 	<script src="{{asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}" type="text/javascript"></script>
 	<script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}" type="text/javascript"></script>
 	<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script>
+	<script src="{{asset('js/home.js')}}" type="text/javascript"></script>
 
 
 

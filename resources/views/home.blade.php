@@ -22,11 +22,18 @@
             <p><span class="typed" id="textAbout" data-typed-items="I ❤️ Open Source, I'm Developer Laravel, I'm Developer Vtex.IO, I'm Developer IONIC, I'm Developer React, I'm Developer Angular"></span></p>
             <div class="social-icons">
 
+              <a class="social-icon social-icon--linkedin" href="https://www.linkedin.com/in/miguel-fletes-garcia-4426b414a/" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+
               <a class="social-icon social-icon--github" href="https://github.com/mfletesg" target="_blank">
                 <i class="fa fa-github"></i>
               </a>
               <a class="social-icon social-icon--twitter" href="https://twitter.com/mike_fletes" target="_blank">
                 <i class="fa fa-twitter"></i>
+              </a>
+              <a class="social-icon social-icon--spotify" href="https://open.spotify.com/user/1295075135?si=507a29c284c34fe6" target="_blank">
+                <i class="fa fa-spotify"></i>
               </a>
               <a class="social-icon social-icon--instagram" href="https://www.instagram.com/mike_fletes" target="_blank">
                 <i class="fa fa-instagram"></i>
@@ -242,19 +249,19 @@
                     <p></p>
                     <!-- /.card-header -->
                     <!-- form start -->
-                    <form class="form-horizontal form-body-contact">
+                    <form class="form-horizontal form-body-contact" onsubmit="return false">
                       <div class="card-body card-body-contact">
                         <div class="row">
                           <div class="col-sm-6 col-lg-6 ">
                             <div class="input-group">
-                              <input type="text" class=" inputContact" id="inputName" placeholder="Name">
+                              <input type="text" class="inputContact" id="inputName" placeholder="Name">
                             </div>
                             <!-- /input-group -->
                           </div>
                           <!-- /.col-lg-6 -->
                           <div class="col-sm-6 col-lg-6 ">
                             <div class="input-group">
-                              <input type="email" class=" inputContact" id="inputEmail" placeholder="Email">
+                              <input type="email" class="inputContact" id="inputEmail" placeholder="Email">
                             </div>
                           </div>
                         </div>
@@ -273,7 +280,7 @@
                           </div>
                         </div>
                         <div class="card-contact-button">
-                          <button class="custom-btn btn-5"><span>Send Message!</span></button>
+                          <button class="custom-btn btn-5" onclick="sendEmail()"><span>Send Message!</span></button>
                         </div>
                       </div>
                     </form>

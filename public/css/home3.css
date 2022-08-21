@@ -202,7 +202,7 @@
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #5614DD;
+  background-color: #00b7cb;
 }
 
 .skills-description{
@@ -788,12 +788,30 @@
 
 
 
+.social-icon--spotify {
+  background: #1ed760;
+  color: #fff;
+}
+.social-icon--spotify .tooltip {
+  background: #1ed760;
+  color: currentColor;
+}
+.social-icon--spotify .tooltip:after {
+  border-top-color: #1ed760;
+}
 
 
-
-
-
-
+.social-icon--instagram {
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  color: #fff;
+}
+.social-icon--instagram .tooltip {
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  color: currentColor;
+}
+.social-icon--instagram .tooltip:after {
+  border-top-color: #f09433 !important;
+}
 
 
 
