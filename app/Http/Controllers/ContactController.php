@@ -1,8 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
+use Mail;
+use App\Mail\EmailMail;
 
 class ContactController extends Controller
 {
@@ -34,7 +35,9 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
+
         $message  = array('error' => 0, 'message' => '', 'data' => '');
+
         if (!$request->has('inputName') || $request->input('inputName') == null) {
             $message  = array('error' => 1, 'message' => 'name is required', 'data' => $request->all());
             return json_encode($message);
@@ -53,9 +56,20 @@ class ContactController extends Controller
         if (!$request->has('inputMessage') || $request->input('inputMessage') == null) {
             $message  = array('error' => 1, 'message' => 'message is required', 'data' => $request->all());
             return json_encode($message);
-        }
+        }   
 
-        return json_encode($request->all());
+        $mailData = [
+            'title'     =>  'Mensaje nuevo de contacto de ' . $request->input('inputName'),
+            'body'      =>  $request->input('inputMessage'),
+            'email'     =>  $request->input('inputEmail'),
+            'subject'   =>  $request->input('inputSubject'),
+        ];
+         
+        Mail::to($request->input('inputEmail'))->send(new EmailMail($mailData));
+
+        $message  = array('error' => 0, 'message' => 'ok', 'data' => $request->input('inputName'));
+
+        return json_encode($message);
     }
 
     /**

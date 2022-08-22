@@ -32,6 +32,11 @@ async function sendEmail(){
 	try{
 		let res = await fetch(url, options);
 		let response =  await res.json();
+
+		if (response.error == 1) {
+			return false;
+		}
+		showNotificationSuccess('Message sent successfully', 'Thanks for getting in contact with me.');
 		console.log(response);
 	}catch(e) {
 		console.log(e);
@@ -71,3 +76,17 @@ function validaEmail(email){
       /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
     );
 }
+
+
+function showNotificationSuccess($title, $message){
+
+	setTimeout(function() {
+		tata.success($title, $message,{
+			duration: 5000
+		})
+	}, 2000);
+
+	
+}
+
+showNotificationSuccess();
