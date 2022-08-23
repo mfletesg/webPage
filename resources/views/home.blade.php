@@ -284,7 +284,7 @@
                           </div>
                         </div>
                         <div class="card-contact-button">
-                          <button class="custom-btn btn-5" onclick="sendEmail()"><span>Send Message!</span></button>
+                          <button class="custom-btn btn-5" onclick="sendEmail()" id="btnSendMessage"><span>Send Message!</span></button>
                         </div>
                       </div>
                     </form>

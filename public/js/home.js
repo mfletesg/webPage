@@ -149,4 +149,9 @@ function showLoading(flag){
 	
 }
 
+
+function disabledButtonEmail(flag){
+	document.getElementById("btnSendMessage").disabled = flag;
+}
+
 	/*showNotificationSuccess();*/
