@@ -238,7 +238,7 @@
           <div class="row">
             <div class="col-md-12">
               <h2 class="titleContact">Contact</h2>
-              <p class="textContact">Send me a message to drink a coffee, talk about code and software projects!!</p>
+              <p class="textContact">Send me a message to drink a coffee or beer, talk about code and software projects!!</p>
 
               <div class="row">
                 <div class="col-sm-8 col-md-8  col-lg-8 ">
@@ -275,7 +275,11 @@
                         <div class="row">
                           <div class="col-lg-12">
                             <div class="input-group">
-                              <textarea class="inputContact" rows="3" placeholder="Enter ..." id="inputMessage"></textarea>
+                              <textarea class="inputContactTextArea" rows="3" placeholder="Enter ..." id="inputMessage"></textarea>
+                            </div>
+
+                            <div class="characterCountContainer">
+                              <label id="characterCount" class="characterCount"></label>
                             </div>
                           </div>
                         </div>
@@ -284,13 +288,18 @@
                         </div>
                       </div>
                     </form>
+
+
                   </div>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 col-img-contact">
 
-                  <div class="avatar">
-                    <img src="{{URL::asset('img/chemla.gif')}}" class="img-fluid mb-2" alt="white sample">
-                  </div>
+                <div class="lds-ring" id="lds-ring"><div></div><div></div><div></div><div></div></div>
+
+                <div class="avatar">
+                  <img src="{{URL::asset('img/chemla.gif')}}" class="img-fluid mb-2" alt="white sample">
+                </div>
+
 
                 </div>
               </div>

@@ -1,3 +1,46 @@
+$( document ).ready(function() {
+  var maxChars = 255;
+  var textLength = 0;
+  var inputMessage = "";
+  var outOfChars = 'You have reached the limit of ' + maxChars + ' characters';
+
+  /* initalize for when no data is in localStorage */
+  var count = maxChars;
+  $('#characterCount').text(count + ' characters left');
+
+  /* fix val so it counts carriage returns */
+  $.valHooks.textarea = {
+    get: function(e) {
+      return e.value.replace(/\r?\n/g, "\r\n");
+    }
+  };
+
+  function checkCount() {
+    textLength = $('#inputMessage').val().length;
+    if (textLength >= maxChars) {
+      $('#characterCount').text(outOfChars);
+    }
+    else {
+      count = maxChars - textLength;
+      $('#characterCount').text(count + ' characters left');
+    }
+  }
+
+  /* on keyUp: update #characterCount as well as count & inputMessage in localStorage */
+  $('#inputMessage').keyup(function() {
+    checkCount();
+    inputMessage = $(this).val();
+    localStorage.setItem("inputMessage", inputMessage);
+  });
+
+  /* on pageload: get check for inputMessage text in localStorage, if found update inputMessage & count */
+  if (localStorage.getItem("inputMessage") != null) {
+    $('#inputMessage').text(localStorage.getItem("inputMessage"));
+    checkCount();
+  }
+});
+
+
 async function sendEmail(){
 
 	if (validateFormContact() === false) {
@@ -45,24 +88,31 @@ async function sendEmail(){
 
 
 function validateFormContact(){
-	if (document.getElementById('inputName') === null || document.getElementById('inputName') === '') {
+
+
+	if (document.getElementById('inputName').value === null || document.getElementById('inputName').value === '') {
+		document.getElementById('inputName').focus();
 		return false;
 	}
 
-	if (document.getElementById('inputEmail') === null || document.getElementById('inputEmail') === '') {
+	if (document.getElementById('inputEmail').value === null || document.getElementById('inputEmail').value === '') {
+		document.getElementById('inputEmail').focus();
 		return false;
 	}
 
-	if (validaEmail(document.getElementById('inputEmail')) === false) {
+	if (validaEmail(document.getElementById('inputEmail').value) === false) {
+		document.getElementById('inputEmail').focus();
 		return false;
 	}
 
 
-	if (document.getElementById('inputSubject') === null || document.getElementById('inputSubject') === '') {
+	if (document.getElementById('inputSubject').value === null || document.getElementById('inputSubject').value === '') {
+		document.getElementById('inputSubject').focus();
 		return false;
 	}
 
-	if (document.getElementById('inputMessage') === null || document.getElementById('inputMessage') === '') {
+	if (document.getElementById('inputMessage').value === null || document.getElementById('inputMessage').value === '') {
+		document.getElementById('inputMessage').focus();
 		return false;
 	}
 
@@ -85,8 +135,18 @@ function showNotificationSuccess($title, $message){
 			duration: 5000
 		})
 	}, 2000);
+}
 
+
+function showLoading(flag){
+	let loader = document.getElementById('lds-ring');
+	if (flag === true) {
+		loader.style.display = 'block';
+	}
+	else{
+		loader.style.display = 'none';
+	}
 	
 }
 
-showNotificationSuccess();
+	/*showNotificationSuccess();*/
