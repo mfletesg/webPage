@@ -2,11 +2,15 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use App\Models\Message;
 use Mail;
 use App\Mail\EmailMail;
 
 class ContactController extends Controller
 {
+    public function __construct(){
+        $this->message = new Message();
+    }
     /**
      * Display a listing of the resource.
      *
@@ -65,11 +69,18 @@ class ContactController extends Controller
             'subject'   =>  $request->input('inputSubject'),
         ];
          
-        Mail::to($request->input('inputEmail'))->send(new EmailMail($mailData));
+        //Mail::to($request->input('inputEmail'))->send(new EmailMail($mailData));
+        $clientIP = \Request::ip();
+        $responseMessage = $this->message->getMessageIP('127.0.0.1');
 
-        $message  = array('error' => 0, 'message' => 'ok', 'data' => $request->input('inputName'));
 
-        return json_encode($message);
+
+
+        $message  = array('error' => 0, 'message' => 'ok', 'data' => $responseMessage);
+        
+
+
+        return json_encode($responseMessage);
     }
 
     /**

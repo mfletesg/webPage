@@ -79,7 +79,7 @@ async function sendEmail(){
 		if (response.error == 1) {
 			return false;
 		}
-		showNotificationSuccess('Message sent successfully', 'Thanks for getting in contact with me.');
+		showNotificationSuccess('Message sent successfully', 'Thanks for getting in contact with me. 🤘');
 		console.log(response);
 	}catch(e) {
 		console.log(e);
@@ -132,7 +132,8 @@ function showNotificationSuccess($title, $message){
 
 	setTimeout(function() {
 		tata.success($title, $message,{
-			duration: 5000
+			duration: 5000,
+			position: 'br'
 		})
 	}, 2000);
 }
