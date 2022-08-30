@@ -283,18 +283,30 @@
                             </div>
                           </div>
                         </div>
-                        <div class="card-contact-button">
-                          <button class="custom-btn btn-5" onclick="sendEmail()" id="btnSendMessage"><span>Send Message!</span></button>
+
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <div class="containerLoading">
+                              <div class="lds-ring" id="lds-ring" ><div></div><div></div><div></div><div></div></div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="card-contact-button">
+                              <button class="custom-btn btn-5" onclick="sendEmail()" id="btnSendMessage"><span>Send Message!</span></button>
+                            </div>
+                          </div>
                         </div>
+
                       </div>
                     </form>
 
 
                   </div>
                 </div>
+
                 <div class="col-sm-4 col-md-4 col-lg-4 col-img-contact">
 
-                <div class="lds-ring" id="lds-ring"><div></div><div></div><div></div><div></div></div>
+                
 
                 <div class="avatar">
                   <img src="{{URL::asset('img/chemla.gif')}}" class="img-fluid mb-2" alt="white sample">

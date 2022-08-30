@@ -69,10 +69,10 @@ class ContactController extends Controller
             'subject'   =>  $request->input('inputSubject'),
         ];
          
-        //Mail::to($request->input('inputEmail'))->send(new EmailMail($mailData));
+        
         $clientIP = \Request::ip();
         $responseMessage = $this->message->getMessageIP('127.0.0.1');
-
+        Mail::to($request->input('inputEmail'))->send(new EmailMail($mailData));
 
 
 

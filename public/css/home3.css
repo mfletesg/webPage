@@ -453,7 +453,7 @@
 
 .lds-ring {
   position: fixed;
-  top: 81%;
+  top: 90%;
   width: 80px;
   height: 80px;
   z-index: 100000;
@@ -462,6 +462,7 @@
   align-self: center;
   left: 50%;
   transform: translateX(-50%);
+  display: none;
 }
 .lds-ring div {
   box-sizing: border-box;

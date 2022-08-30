@@ -42,8 +42,9 @@ $( document ).ready(function() {
 
 
 async function sendEmail(){
-
+	showLoading(true)
 	if (validateFormContact() === false) {
+		showLoading(false)
 		return false;
 	}
 
@@ -75,13 +76,14 @@ async function sendEmail(){
 	try{
 		let res = await fetch(url, options);
 		let response =  await res.json();
-
+		showLoading(false);
 		if (response.error == 1) {
 			return false;
 		}
 		showNotificationSuccess('Message sent successfully', 'Thanks for getting in contact with me. 🤘');
 		console.log(response);
 	}catch(e) {
+		showLoading(false);
 		console.log(e);
 	}
 }
