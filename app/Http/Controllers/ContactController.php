@@ -74,8 +74,6 @@ class ContactController extends Controller
         $responseMessage = $this->message->getMessageIP('127.0.0.1');
         Mail::to($request->input('inputEmail'))->send(new EmailMail($mailData));
 
-
-
         $message  = array('error' => 0, 'message' => 'ok', 'data' => $responseMessage);
         
 

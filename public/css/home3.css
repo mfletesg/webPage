@@ -653,7 +653,7 @@ body::-webkit-scrollbar-thumb {
   height:2px;
   background: #21ebff;
   width:0;
-    box-shadow:  0 0 5px #21ebff,  0 0 5px #21ebff inset;
+  box-shadow:  0 0 5px #21ebff,  0 0 5px #21ebff inset;
   transition:400ms ease all;
 }
 .btn-5:after{
@@ -670,6 +670,11 @@ body::-webkit-scrollbar-thumb {
 
 .card-contact-button{
   text-align: right;
+}
+
+.btn-5:disabled {
+  color: #068b89;
+  box-shadow:  0 0 5px #17a6b3,  0 0 5px #117983 inset;
 }
 
 

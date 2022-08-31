@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+	clearInpurContact()
   var maxChars = 255;
   var textLength = 0;
   var inputMessage = "";
@@ -43,8 +44,10 @@ $( document ).ready(function() {
 
 async function sendEmail(){
 	showLoading(true)
+	disabledButtonEmail(true)
 	if (validateFormContact() === false) {
 		showLoading(false)
+		disabledButtonEmail(false)
 		return false;
 	}
 
@@ -77,13 +80,16 @@ async function sendEmail(){
 		let res = await fetch(url, options);
 		let response =  await res.json();
 		showLoading(false);
+		disabledButtonEmail(false);
 		if (response.error == 1) {
 			return false;
 		}
+		clearInpurContact()
 		showNotificationSuccess('Message sent successfully', 'Thanks for getting in contact with me. 🤘');
 		console.log(response);
 	}catch(e) {
 		showLoading(false);
+		disabledButtonEmail(false);
 		console.log(e);
 	}
 }
@@ -107,6 +113,7 @@ function validateFormContact(){
 		return false;
 	}
 
+	console.log(validaEmail(document.getElementById('inputEmail').value))
 
 	if (document.getElementById('inputSubject').value === null || document.getElementById('inputSubject').value === '') {
 		document.getElementById('inputSubject').focus();
@@ -122,11 +129,11 @@ function validateFormContact(){
 }
 
 function validaEmail(email){
-	return String(email)
-    .toLowerCase()
-    .match(
-      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-    );
+	if( /(.+)@(.+){2,}\.(.+){2,}/.test(email) ){
+		return true;
+	} else {
+	  return false;
+	}
 }
 
 
@@ -137,7 +144,7 @@ function showNotificationSuccess($title, $message){
 			duration: 5000,
 			position: 'br'
 		})
-	}, 2000);
+	}, 300);
 }
 
 
@@ -155,6 +162,14 @@ function showLoading(flag){
 
 function disabledButtonEmail(flag){
 	document.getElementById("btnSendMessage").disabled = flag;
+}
+
+
+function clearInpurContact(){
+	document.getElementById('inputName').value = "";
+	document.getElementById('inputEmail').value = "";
+	document.getElementById('inputSubject').value = "";
+	document.getElementById('inputMessage').value = "";
 }
 
 	/*showNotificationSuccess();*/

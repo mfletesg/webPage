@@ -249,7 +249,7 @@
                     <p></p>
                     <!-- /.card-header -->
                     <!-- form start -->
-                    <form class="form-horizontal form-body-contact" onsubmit="return false">
+                    <form class="form-horizontal form-body-contact" onsubmit="return false" autocomplete="off">
                       <div class="card-body card-body-contact">
                         <div class="row">
                           <div class="col-sm-6 col-lg-6 ">
