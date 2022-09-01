@@ -503,6 +503,8 @@
   color: #7be5ce;
 }
 
+
+
 body::-webkit-scrollbar {
   width: 1em;
 }
@@ -512,9 +514,14 @@ body::-webkit-scrollbar-track {
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: #0a173d !important;
+  background-color: #112665 !important;
   outline: 1px solid #112867 !important;
 }
+
+body::-webkit-scrollbar {
+  background-color: #070E24 !important;
+}
+
 
 
 
