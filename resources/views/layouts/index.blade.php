@@ -49,6 +49,8 @@
 		<script src="{{secure_asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
 		<script src="{{secure_asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
 		<script src="{{secure_asset('assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
+		<script src="{{secure_asset('js/home.js')}}" type="text/javascript"></script>
+		<script src="{{secure_asset('js/TaTaNotification/tata.js')}}"></script>
 	@endif
 
 
