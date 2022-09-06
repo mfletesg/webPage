@@ -16,7 +16,8 @@ use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     // return view('home');
-    return view('home');
+
+    return view('home', ['name' => $_SERVER['REMOTE_ADDR']]);
 });
 
 Route::get('/home', function () {

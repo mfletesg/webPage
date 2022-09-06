@@ -1027,6 +1027,16 @@ body::-webkit-scrollbar {
 
 }
 
+@media (max-width:  575px){
+  .avatar {
+    margin-top: 60px;
+  }
+
+  .content-contact{
+    padding-bottom: 40px !important;
+  }
+}
+
 @media (max-width: 450px) {
   .content-about{
     padding-left: 17px !important;

@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-use App\Models\Message;
+//use App\Models\Message;
 use Mail;
 use App\Mail\EmailMail;
 
 class ContactController extends Controller
 {
     public function __construct(){
-        $this->message = new Message();
+        //$this->message = new Message();
     }
     /**
      * Display a listing of the resource.
@@ -39,7 +39,7 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
-
+        $mailUserName = env("MAIL_USERNAME", "somedefaultvalue");
         $message  = array('error' => 0, 'message' => '', 'data' => '');
 
         if (!$request->has('inputName') || $request->input('inputName') == null) {
@@ -63,7 +63,7 @@ class ContactController extends Controller
         }   
 
         $mailData = [
-            'title'     =>  'Mensaje nuevo de contacto de ' . $request->input('inputName'),
+            'title'     =>  'Mensaje nuevo de ' . $request->input('inputName'),
             'body'      =>  $request->input('inputMessage'),
             'email'     =>  $request->input('inputEmail'),
             'subject'   =>  $request->input('inputSubject'),
@@ -72,13 +72,11 @@ class ContactController extends Controller
         
         $clientIP = \Request::ip();
         $responseMessage = $this->message->getMessageIP('127.0.0.1');
-        Mail::to($request->input('inputEmail'))->send(new EmailMail($mailData));
+        Mail::to($mailUserName)->send(new EmailMail($mailData));
 
-        $message  = array('error' => 0, 'message' => 'ok', 'data' => $responseMessage);
-        
+        $message  = array('error' => 0, 'message' => 'ok', 'data' => $mailUserName);
 
-
-        return json_encode($responseMessage);
+        return json_encode($message);
     }
 
     /**
