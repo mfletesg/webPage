@@ -97,7 +97,9 @@
           <!-- /.row -->
         </div><!-- /.container-fluid -->
       </section>
-      <section id="skills" class="content   skills section-bg">
+
+
+      <section id="skills" class="content  skills section-bg">
         <div class="container container-skills">
           <div class="section-title">
             <h2 class="skills-title">Skills</h2>
@@ -233,6 +235,22 @@
           </div>
         </div>
       </section>
+
+
+      <section id="jobs" class="content  content-jobs section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+               <h2 class="titleContact">Hobbies</h2>
+
+               
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+
       <section id="contact" class="content content-contact resume section-bg">
         <div class="container">
           <div class="row">
