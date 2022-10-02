@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-	clearInpurContact()
+  clearInpurContact()
   var maxChars = 255;
   var textLength = 0;
   var inputMessage = "";
@@ -39,7 +39,66 @@ $( document ).ready(function() {
     $('#inputMessage').text(localStorage.getItem("inputMessage"));
     checkCount();
   }
+
+
+			var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        centeredSlides: true,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+		      // when window width is <= 320px
+		      0: {
+		        slidesPerView: 2,
+		        spaceBetween: 10,
+		      },
+
+		      575: {
+		        slidesPerView: 3,
+		        spaceBetween: 10,
+		      },
+		      // when window width is <= 480px
+		      992: {
+		        slidesPerView: 4,
+		        spaceBetween: 10,
+		      },
+		      // when window width is <= 640px
+		      1200: {
+		        slidesPerView: 7.4,
+		        spaceBetween: 10,
+		      }
+		    }
+      });
+
+
 });
+
+document.oncontextmenu = function(){return false}
+
+
+
+$(function () {
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox({
+      alwaysShowClose: true
+      
+    });
+  });
+
+  /*$('.filter-container').filterizr({gutterPixels: 3});
+  $('.btn[data-filter]').on('click', function() {
+    $('.btn[data-filter]').removeClass('active');
+    $(this).addClass('active');
+  });*/
+})
 
 
 async function sendEmail(){

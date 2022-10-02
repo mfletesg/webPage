@@ -18,10 +18,14 @@
   <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
   <link rel="stylesheet" href="{{asset('css/home3.css')}}"> --}}
 
+  	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
   @if($name =='127.0.0.1')
 	  <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
 	  <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
 	  <link rel="stylesheet" href="{{asset('css/home3.css')}}">
+	  <link rel="stylesheet" href="{{asset('plugins/ekko-lightbox/ekko-lightbox.css')}}" >
+
 
 	  <script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
 		<script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
@@ -32,8 +36,14 @@
 		<script src="{{asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}" type="text/javascript"></script>
 		<script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}" type="text/javascript"></script>
 		<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script>
-		<script src="{{asset('js/home.js')}}" type="text/javascript"></script>
+		
 		<script src="{{asset('js/TaTaNotification/tata.js')}}"></script>
+		<script src="{{asset('plugins/ekko-lightbox/ekko-lightbox.min.js')}}"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+		<script src="{{asset('js/home.js')}}" type="text/javascript"></script>
+		
 
   @else
     <link rel="stylesheet" href="{{secure_asset('plugins/fontawesome-free/css/all.min.css')}}">

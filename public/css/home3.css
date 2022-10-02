@@ -915,9 +915,86 @@ body::-webkit-scrollbar {
   margin-bottom: 0px;
 }
 
+.card-header-photos{
+  background-color: #173e87 !important;
+  text-align: center !important;
+  display: block !important;
+}
+
+.card-body-photos{
+  background-color: #f0f0f0!important;
+}
 
 
+.content-photos{
+  padding-top: 110px !important;
+  padding-bottom: 120px;
+  background-color: #161d32;
+}
 
+
+.img-photo{
+  margin-bottom: 0px !important;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.append-buttons button {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+
+#ekkoLightbox-10 .modal-dialog .modal-content .modal-body{
+  background-color: red !important;
+}
 
 
 
