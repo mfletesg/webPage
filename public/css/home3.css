@@ -1021,8 +1021,13 @@ body::-webkit-scrollbar {
   padding: 0px !important;
 }
 
+
+.ekko-lightbox .modal-content{
+  background-color: transparent ;
+}
+
 .ekko-lightbox .modal-header{
-  background-color: #161d48 ;
+  background-color: #0c1028 ;
 }
 
 .ekko-lightbox .modal-title{
@@ -1030,6 +1035,23 @@ body::-webkit-scrollbar {
     color: #fff;
     width: 100%;
 }
+
+.ekko-lightbox .close{
+  visibility: hidden;
+}
+
+.ekko-lightbox .close::before{
+  visibility: visible;
+  background-image: url('../img/close_icon.svg');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  content: "";
+  position: absolute;
+  background-position: -2px 5px, center;
+}
+
 
 
 

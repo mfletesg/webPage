@@ -255,27 +255,32 @@
         <div #swiperRef="" class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_17-38-08.jpg?text=13" data-toggle="lightbox" data-title="" data-gallery="gallery">
+              <a href="img/photo_2022-10-02_17-53-20.jpg?text=14" data-toggle="lightbox" data-title="Colima volcano" data-gallery="gallery">
+                <img src="img/photo_2022-10-02_17-53-20.jpg?text=14" class="img-fluid img-photo mb-2" alt="black sample"/>
+              </a>
+            </div>
+            <div class="swiper-slide swiper-slide-photo">
+              <a href="img/photo_2022-10-01_17-38-08.jpg?text=13" data-toggle="lightbox" data-title="Foo Fighters" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_17-38-08.jpg?text=13" class="img-fluid img-photo mb-2" alt="black sample"/>
               </a>
             </div>
             <div class="swiper-slide swiper-slide-photo">
-                <a href="img/photo_2022-10-01_14-19-44.jpg?text=1" data-toggle="lightbox" data-title="" data-gallery="gallery">
+                <a href="img/photo_2022-10-01_14-19-44.jpg?text=1" data-toggle="lightbox" data-title="Bike" data-gallery="gallery">
                   <img src="img/photo_2022-10-01_14-19-44.jpg?text=1" class="img-fluid img-photo mb-2" alt="black sample"/>
                 </a>
             </div>
             <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_14-29-22.jpg?text=2" data-toggle="lightbox" data-title="sample 2 - black" data-gallery="gallery">
+              <a href="img/photo_2022-10-01_14-29-22.jpg?text=2" data-toggle="lightbox" data-title="Code in Linux" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_14-29-22.jpg?text=2" class="img-fluid img-photo mb-2" alt="black sample"/>
               </a>
             </div>
             <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_14-40-00.jpg?text=3" data-toggle="lightbox" data-title="sample 3 - red" data-gallery="gallery">
+              <a href="img/photo_2022-10-01_14-40-00.jpg?text=3" data-toggle="lightbox" data-title="Colima" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_14-40-00.jpg?text=3" class="img-fluid img-photo mb-2" alt="red sample"/>
               </a>
             </div>
              <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_14-40-08.jpg?text=4" data-toggle="lightbox" data-title="sample 4 - red" data-gallery="gallery">
+              <a href="img/photo_2022-10-01_14-40-08.jpg?text=4" data-toggle="lightbox" data-title="Sunset" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_14-40-08.jpg?text=4" class="img-fluid img-photo mb-2" alt="red sample"/>
               </a>
             </div>
@@ -285,43 +290,43 @@
               </a>
             </div>
             <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_19-32-24.jpg?text=14" data-toggle="lightbox" data-title="sample 6 - white" data-gallery="gallery">
+              <a href="img/photo_2022-10-01_19-32-24.jpg?text=14" data-toggle="lightbox" data-title="Acustic Guitar" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_19-32-24.jpg?text=14" class="img-fluid img-photo mb-2" alt="white sample"/>
               </a>
             </div>
              <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_14-40-04.jpg?text=6" data-toggle="lightbox" data-title="sample 6 - white" data-gallery="gallery">
+              <a href="img/photo_2022-10-01_14-40-04.jpg?text=6" data-toggle="lightbox" data-title="Sunset at the beach" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_14-40-04.jpg?text=6" class="img-fluid img-photo mb-2" alt="white sample"/>
               </a>
             </div>
              <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_14-40-13.jpg?text=7" data-toggle="lightbox" data-title="sample 7 - white" data-gallery="gallery">
+              <a href="img/photo_2022-10-01_14-40-13.jpg?text=7" data-toggle="lightbox" data-title="Sunrise" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_14-40-13.jpg?text=7" class="img-fluid img-photo mb-2" alt="white sample"/>
               </a>
             </div>
              <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_14-55-55.jpg?text=8" data-toggle="lightbox" data-title="sample 8 - black" data-gallery="gallery">
+              <a href="img/photo_2022-10-01_14-55-55.jpg?text=8" data-toggle="lightbox" data-title="February Stars" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_14-55-55.jpg?text=8" class="img-fluid img-photo mb-2" alt="black sample"/>
               </a>
             </div>
              <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_15-04-07.jpg?text=9" data-toggle="lightbox" data-title="sample 9 - red" data-gallery="gallery">
+              <a href="img/photo_2022-10-01_15-04-07.jpg?text=9" data-toggle="lightbox" data-title="River and beer" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_15-04-07.jpg?text=9" class="img-fluid img-photo mb-2" alt="red sample"/>
               </a>
             </div>
              <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_15-04-11.jpg?text=10" data-toggle="lightbox" data-title="sample 10 - white" data-gallery="gallery">
+              <a href="img/photo_2022-10-01_15-04-11.jpg?text=10" data-toggle="lightbox" data-title="Book" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_15-04-11.jpg?text=10" class="img-fluid img-photo mb-2" alt="white sample"/>
               </a>
             </div>
              <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_15-11-32.jpg?text=11" data-toggle="lightbox" data-title="sample 11 - white" data-gallery="gallery">
+              <a href="img/photo_2022-10-01_15-11-32.jpg?text=11" data-toggle="lightbox" data-title="Casual programming" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_15-11-32.jpg?text=11" class="img-fluid img-photo mb-2" alt="white sample"/>
               </a>
             </div>
             <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_14-40-16.jpg?text=12" data-toggle="lightbox" data-title="sample 12 - black" data-gallery="gallery">
-                <img src="img/photo_2022-10-01_14-40-16.jpg?text=12" class="img-fluid img-photo mb-2" alt="black sample"/>
+              <a href="img/photo_2022-10-01_14-54-29.jpg?text=12" data-toggle="lightbox" data-title="Manzanillo sunset" data-gallery="gallery">
+                <img src="img/photo_2022-10-01_14-54-29.jpg?text=12" class="img-fluid img-photo mb-2" alt="black sample"/>
               </a>
             </div>
 
