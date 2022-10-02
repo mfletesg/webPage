@@ -56,12 +56,24 @@ $( document ).ready(function() {
         breakpoints: {
 		      // when window width is <= 320px
 		      0: {
-		        slidesPerView: 2,
+		        slidesPerView: 1.3,
+		        spaceBetween: 10,
+		      },
+		      300: {
+		        slidesPerView: 1.4,
 		        spaceBetween: 10,
 		      },
 
 		      575: {
-		        slidesPerView: 3,
+		        slidesPerView: 2.2,
+		        spaceBetween: 10,
+		      },
+		      674: {
+		      	slidesPerView: 2.8,
+		        spaceBetween: 10,
+		      },
+		      862:{
+		      	slidesPerView: 3.2,
 		        spaceBetween: 10,
 		      },
 		      // when window width is <= 480px
@@ -71,7 +83,15 @@ $( document ).ready(function() {
 		      },
 		      // when window width is <= 640px
 		      1200: {
-		        slidesPerView: 7.4,
+		        slidesPerView: 4.9,
+		        spaceBetween: 10,
+		      },
+		      1250: {
+		        slidesPerView: 5.5,
+		        spaceBetween: 10,
+		      },
+		      1300: {
+		        slidesPerView: 5.9,
 		        spaceBetween: 10,
 		      }
 		    }
@@ -80,12 +100,12 @@ $( document ).ready(function() {
 
 });
 
-document.oncontextmenu = function(){return false}
+// document.oncontextmenu = function(){return false}
 
 
 
 $(function () {
-  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+  $(document).on('click', '[data-toggle="lightbox"],img.thickbox', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox({
       alwaysShowClose: true

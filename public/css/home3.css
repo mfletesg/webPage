@@ -763,7 +763,6 @@ body::-webkit-scrollbar {
 
 
 
-
 .social-icons {
   display: inline-flex;
 }
@@ -935,6 +934,8 @@ body::-webkit-scrollbar {
 
 .img-photo{
   margin-bottom: 0px !important;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
 }
 
 .swiper-container {
@@ -995,6 +996,42 @@ body::-webkit-scrollbar {
 #ekkoLightbox-10 .modal-dialog .modal-content .modal-body{
   background-color: red !important;
 }
+
+.section-title{
+  text-align: center;
+}
+
+.title-photos{
+  padding-bottom: 15px;
+  color: #ffffff;
+  font-size: 29px;
+}
+
+.swiper-pagination-horizontal{
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+.swiper-slide-photo{
+  background-color: transparent;
+}
+
+
+.ekko-lightbox .modal-body{
+  padding: 0px !important;
+}
+
+.ekko-lightbox .modal-header{
+  background-color: #161d48 ;
+}
+
+.ekko-lightbox .modal-title{
+  text-align: center;
+    color: #fff;
+    width: 100%;
+}
+
+
 
 
 

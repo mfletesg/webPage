@@ -49,6 +49,7 @@
     <link rel="stylesheet" href="{{secure_asset('plugins/fontawesome-free/css/all.min.css')}}">
   	<link rel="stylesheet" href="{{secure_asset('dist/css/adminlte.min.css')}}">
   	<link rel="stylesheet" href="{{secure_asset('css/home3.css')}}">
+  	<link rel="stylesheet" href="{{secure_asset('plugins/ekko-lightbox/ekko-lightbox.css')}}" >
 
   	<script src="{{secure_asset('plugins/jquery/jquery.min.js')}}"></script>
 		<script src="{{secure_asset('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
@@ -59,8 +60,12 @@
 		<script src="{{secure_asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
 		<script src="{{secure_asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
 		<script src="{{secure_asset('assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
-		<script src="{{secure_asset('js/home.js')}}" type="text/javascript"></script>
+		
 		<script src="{{secure_asset('js/TaTaNotification/tata.js')}}"></script>
+		<script src="{{secure_asset('plugins/ekko-lightbox/ekko-lightbox.min.js')}}"></script>
+
+
+		<script src="{{secure_asset('js/home.js')}}" type="text/javascript"></script>
 	@endif
 
 
