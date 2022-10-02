@@ -41,7 +41,7 @@ $( document ).ready(function() {
   }
 
 
-			var swiper = new Swiper(".mySwiper", {
+		var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
         centeredSlides: true,
         spaceBetween: 30,
@@ -96,19 +96,12 @@ $( document ).ready(function() {
 		      }
 		    }
       });
-
-	  document.body.style.webkitTouchCallout='none';
-	  document.oncontextmenu = function(){return false}
-
 });
-
-//
-
 
 
 
 $(function () {
-  $(document).on('click', '[data-toggle="lightbox"],img.thickbox', function(event) {
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox({
       alwaysShowClose: true

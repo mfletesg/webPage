@@ -66,6 +66,7 @@
 
 
 		<script src="{{secure_asset('js/home.js')}}" type="text/javascript"></script>
+		<script src="{{secure_asset('js/s.js')}}" type="text/javascript"></script>
 	@endif
 
 

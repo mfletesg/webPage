@@ -1053,16 +1053,11 @@ body::-webkit-scrollbar {
   background-position: -2px 5px, center;
 }
 
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 990px) {
+  .ekko-lightbox{
+    background-color: rgba(8, 8, 8, 0.86);
+  }
+}
 
 @media (max-width: 900px) {
   .container-about h1{
