@@ -1027,7 +1027,8 @@ body::-webkit-scrollbar {
 }
 
 .ekko-lightbox .modal-header{
-  background-color: #0c1028 ;
+  background-color: #0c1028;
+  border: none !important;
 }
 
 .ekko-lightbox .modal-title{
