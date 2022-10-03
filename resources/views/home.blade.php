@@ -12,7 +12,7 @@
             <div class="card card-profile">
               <div class="card-body ">
                 <div class="text-center">
-                  <img class="profile-user-img img-fluid img-circle profile-user-img-style" src="{{URL::asset('img/20190921_1810734.jpg')}}" alt="User profile picture">
+                  <img class="profile-user-img img-fluid img-circle profile-user-img-style" src="{{URL::asset('img/photo_2022-10-02_20-35-46.jpg')}}" alt="User profile picture">
                 </div>
 
               </div>
@@ -260,8 +260,8 @@
               </a>
             </div>
             <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-01_17-38-08.jpg?text=13" data-toggle="lightbox" data-title="Foo Fighters" data-gallery="gallery">
-                <img src="img/photo_2022-10-01_17-38-08.jpg?text=13" class="img-fluid img-photo mb-2" alt="black sample"/>
+              <a href="img/photo_2022-10-02_20-28-46.jpg?text=13" data-toggle="lightbox" data-title="Foo Fighters" data-gallery="gallery">
+                <img src="img/photo_2022-10-02_20-28-46.jpg?text=13" class="img-fluid img-photo mb-2" alt="black sample"/>
               </a>
             </div>
             <div class="swiper-slide swiper-slide-photo">
@@ -327,6 +327,21 @@
             <div class="swiper-slide swiper-slide-photo">
               <a href="img/photo_2022-10-01_14-54-29.jpg?text=12" data-toggle="lightbox" data-title="Manzanillo sunset" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_14-54-29.jpg?text=12" class="img-fluid img-photo mb-2" alt="black sample"/>
+              </a>
+            </div>
+            <div class="swiper-slide swiper-slide-photo">
+              <a href="img/photo_2022-10-02_20-29-25.jpg?text=15" data-toggle="lightbox" data-title="Bigotes" data-gallery="gallery">
+                <img src="img/photo_2022-10-02_20-29-25.jpg?text=15" class="img-fluid img-photo mb-2" alt="black sample"/>
+              </a>
+            </div>
+            <div class="swiper-slide swiper-slide-photo">
+              <a href="img/photo_2022-10-02_20-29-20.jpg?text=16" data-toggle="lightbox" data-title="December Sunset" data-gallery="gallery">
+                <img src="img/photo_2022-10-02_20-29-20.jpg?text=16" class="img-fluid img-photo mb-2" alt="black sample"/>
+              </a>
+            </div>
+            <div class="swiper-slide swiper-slide-photo">
+              <a href="img/photo_2022-10-02_20-49-25.jpg?text=17" data-toggle="lightbox" data-title="" data-gallery="gallery">
+                <img src="img/photo_2022-10-02_20-49-25.jpg?text=17" class="img-fluid img-photo mb-2" alt="black sample"/>
               </a>
             </div>
 
