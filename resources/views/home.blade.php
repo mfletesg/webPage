@@ -237,6 +237,28 @@
       </section>
 
 
+      <section id="playlist" class="content content-playlist resume section-bg">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-12">
+              <div class="section-title">
+                <h2 class="title-photos">My playlist</h2>
+              </div>
+            </div>
+
+            <div class="col-md-6 playlist1">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/48zDtuxp7T7GMyP6RfOsCq?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+
+            <div class="col-md-6">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5j9R3LNUGd4I8wb9owrPPy?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
 
 
 
@@ -352,6 +374,11 @@
         </div>
 
       </section>
+
+
+
+
+      
 
 
       <section id="contact" class="content content-contact resume section-bg">

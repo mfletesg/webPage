@@ -73,6 +73,16 @@
 	<script src="https://kit.fontawesome.com/9b26a92da5.js" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-W8TXJNX4ZG"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-W8TXJNX4ZG');
+</script>
+
 
 	</head>
 	<body>
