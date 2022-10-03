@@ -1054,7 +1054,7 @@ body::-webkit-scrollbar {
 }
 
 .content-playlist{
-  background-color: #2a2a2a;
+  background-color: #2a2a2a !important;
   padding-top: 90px;
   padding-bottom: 100px;
 }
@@ -1083,13 +1083,6 @@ body::-webkit-scrollbar {
     background-color: rgba(8, 8, 8, 0.86);
   }
 
-  .content-playlist{
-    /*display: none;*/
-  }
-
-  .playlist1{
-    display: none;
-  }
 }
 
 @media (max-width: 900px) {
@@ -1183,6 +1176,13 @@ body::-webkit-scrollbar {
 
 }
 
+
+
+@media (max-width: 767px) {
+  .playlist1{
+    display: none;
+  }
+}
 
 @media (max-width: 620px) {
   .container-skills{
