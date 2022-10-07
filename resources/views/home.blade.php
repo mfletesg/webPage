@@ -286,11 +286,26 @@
                 <img src="img/photo_2022-10-02_20-28-46.jpg?text=13" class="img-fluid img-photo mb-2" alt="black sample"/>
               </a>
             </div>
+
+
             <div class="swiper-slide swiper-slide-photo">
-                <a href="img/photo_2022-10-01_14-19-44.jpg?text=1" data-toggle="lightbox" data-title="Bike" data-gallery="gallery">
-                  <img src="img/photo_2022-10-01_14-19-44.jpg?text=1" class="img-fluid img-photo mb-2" alt="black sample"/>
+                <a href="img/photo_2022-10-06_23-10-31.jpg?text=20" data-toggle="lightbox" data-title="Bicycle and Blue Sky" data-gallery="gallery">
+                  <img src="img/photo_2022-10-06_23-10-31.jpg?text=20" class="img-fluid img-photo mb-2" alt="black sample"/>
                 </a>
             </div>
+
+            <div class="swiper-slide swiper-slide-photo">
+                <a href="img/photo_2022-10-06_23-02-34.jpg?text=19" data-toggle="lightbox" data-title="🙂" data-gallery="gallery">
+                  <img src="img/photo_2022-10-06_23-02-34.jpg?text=19" class="img-fluid img-photo mb-2" alt="black sample"/>
+                </a>
+            </div>
+
+            <div class="swiper-slide swiper-slide-photo">
+                <a href="img/photo_2022-10-06_23-02-32.jpg?text=18" data-toggle="lightbox" data-title="Mexico City" data-gallery="gallery">
+                  <img src="img/photo_2022-10-06_23-02-32.jpg?text=18" class="img-fluid img-photo mb-2" alt="black sample"/>
+                </a>
+            </div>
+
             <div class="swiper-slide swiper-slide-photo">
               <a href="img/photo_2022-10-01_14-29-22.jpg?text=2" data-toggle="lightbox" data-title="Code in Linux" data-gallery="gallery">
                 <img src="img/photo_2022-10-01_14-29-22.jpg?text=2" class="img-fluid img-photo mb-2" alt="black sample"/>
@@ -351,6 +366,13 @@
                 <img src="img/photo_2022-10-01_14-54-29.jpg?text=12" class="img-fluid img-photo mb-2" alt="black sample"/>
               </a>
             </div>
+
+            <div class="swiper-slide swiper-slide-photo">
+                <a href="img/photo_2022-10-01_14-19-44.jpg?text=1" data-toggle="lightbox" data-title="Bike" data-gallery="gallery">
+                  <img src="img/photo_2022-10-01_14-19-44.jpg?text=1" class="img-fluid img-photo mb-2" alt="black sample"/>
+                </a>
+            </div>
+
             <div class="swiper-slide swiper-slide-photo">
               <a href="img/photo_2022-10-02_20-29-25.jpg?text=15" data-toggle="lightbox" data-title="Bigotes" data-gallery="gallery">
                 <img src="img/photo_2022-10-02_20-29-25.jpg?text=15" class="img-fluid img-photo mb-2" alt="black sample"/>
