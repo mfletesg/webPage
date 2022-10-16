@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route as Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\FileXMLController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +26,6 @@ Route::get('/home', function () {
 });
 
 Route::resource('contact', ContactController::class);
+
+
+Route::resource('/file', FileXMLController::class);
