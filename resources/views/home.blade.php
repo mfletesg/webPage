@@ -76,8 +76,8 @@
                   <p class="response"><b>Web Developer Full Stack</b> graduated from Instituto Tecnológicode Colima as a Computer Engineer specializing in <b>"High Performance Software"</b>, passionate about Open Source technologies.</p>
                   <p class="command">city</p>
                   <p class="response array">
-                    <a class="array-element" href="#">📍Villa de Alvarez Colima MX</a>,
-                    <a class="array-element" href="#">📍Nicolas Romero Estado de Mexico MX</a>
+                    <a class="array-element" href="https://www.google.com/maps/place/Villa+de+%C3%81lvarez,+Col./@19.2765187,-103.8204107,12z/data=!4m5!3m4!1s0x8425453ee675017d:0xb7b213275f421382!8m2!3d19.2662338!4d-103.7390574"  target="_blank" >📍Villa de Alvarez Colima MX</a>,
+                    <a class="array-element" href="https://www.google.com/maps/place/Villa+Nicol%C3%A1s+Romero,+M%C3%A9x./@19.6192966,-99.342438,13z/data=!3m1!4b1!4m5!3m4!1s0x85d219638c308a05:0xc1c76fdec34cd1d8!8m2!3d19.6162033!4d-99.3001181"  target="_blank">📍Nicolas Romero Estado de Mexico MX</a>
                   </p>
                   <p class="command">age</p>
                   <p class="response"><b>27 years</p>
@@ -234,6 +234,84 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <section id="experience" class="content experience content-experience section-bg">
+        <div class="section-title">
+          <h2 class="skills-title">Experience</h2>
+        </div>
+
+
+        <div class="container">
+          <div class="row">
+
+
+
+            <div class="col-md-12">
+                    <div class="main-timeline8">
+                        <div class="timeline-profile">
+                            <span class="timeline-icon"></span>
+                            <span class="year">2012 - 2017</span>
+                            <div class="timeline-content">
+                                <h3 class="title">Student of the Instituto Tecnologico de Colima</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. .
+                                </p>
+
+                                <div class="container-img-timeline">
+                                  <img src="img/itcolima.svg" class="img-timeline-itcolima">
+                                </div>
+                                
+                            </div>
+                        </div>
+  
+                        <div class="timeline-profile">
+                            <span class="timeline-icon"></span>
+                            <span class="year">2018</span>
+                            <div class="timeline-content">
+                                <h3 class="title">Developer Jr in Colimasoft</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere. Nullam est.
+                                </p>
+
+                                <div class="container-img-timeline">
+                                  <img src="img/LOGO12.0f0d9fbf.png" class="img-timeline-colimasoft">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-profile">
+                            <span class="timeline-icon"></span>
+                            <span class="year">2019</span>
+                            <div class="timeline-content">
+                                <h3 class="title">Web Developer Full Stack in CIMA Group</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere. Nullam est.
+                                </p>
+                                <div class="container-img-timeline">
+                                  <img src="img/logo-cima.png" class="img-timeline">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-profile">
+                            <span class="timeline-icon"></span>
+                            <span class="year">2020 - Actuality</span>
+                            <div class="timeline-content">
+                                <h3 class="title">Web Developer Full Stack Middle in Punto Commerce</h3>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere. Nullam est.
+                                </p>
+
+                                <div class="container-img-timeline">
+                                  <img src="img/PC_logo_2020_1-3484729.png" class="img-timeline">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+          </div>
+        </div>
+
       </section>
 
 
