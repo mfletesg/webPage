@@ -239,6 +239,7 @@
       <section id="experience" class="content experience content-experience section-bg">
         <div class="section-title">
           <h2 class="skills-title">Experience</h2>
+          <br>
         </div>
 
 
@@ -255,12 +256,19 @@
                             <div class="timeline-content">
                                 <h3 class="title">Student of the Instituto Tecnologico de Colima</h3>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. .
+                                    I studied at the Instituto Tecnologico de Colima in the computer engineering career with a specialty in high-performance software.
                                 </p>
 
                                 <div class="container-img-timeline">
-                                  <img src="img/itcolima.svg" class="img-timeline-itcolima">
+                                  <img src="img/itcolima.svg" class="img-timeline img-timeline-itcolima">
                                 </div>
+
+                                <div class="container-webpage-timeline">
+                                  <a class="webpage-link" href="https://www.colima.tecnm.mx" target="_blank">
+                                    https://www.colima.tecnm.mx
+                                  </a>     
+                                </div>
+
                                 
                             </div>
                         </div>
@@ -269,13 +277,25 @@
                             <span class="timeline-icon"></span>
                             <span class="year">2018</span>
                             <div class="timeline-content">
-                                <h3 class="title">Developer Jr in Colimasoft</h3>
+                                <h3 class="title">Developer Junior in Colimasoft</h3>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere. Nullam est.
+                                    My first job as a software developer was in the ColimaSoft company, where I developed web and mobile applications, especially in PHP and JavaScript.
+                                </p>
+
+                                <p class="description">
+                                    ColimaSoft is a custom software development company.
                                 </p>
 
                                 <div class="container-img-timeline">
-                                  <img src="img/LOGO12.0f0d9fbf.png" class="img-timeline-colimasoft">
+                                  <img src="img/LOGO12.0f0d9fbf.png" class="img-timeline img-timeline-colimasoft">
+                                </div>
+
+                                
+
+                                <div class="container-webpage-timeline">
+                                  <a class="webpage-link" href="https://www.colimasoft.com" target="_blank">
+                                    https://www.colimasoft.com
+                                  </a>
                                 </div>
                             </div>
                         </div>
@@ -285,25 +305,46 @@
                             <div class="timeline-content">
                                 <h3 class="title">Web Developer Full Stack in CIMA Group</h3>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere. Nullam est.
+                                  My second job was at Grupo CIMA
+                                </p>
+                                <p class="description">
+                                    Cima Group is a port logistics company, he worked as a Full-Stack developer creating internal modules to streamline the company's logistics processes.
+                                </p>
+
+                                <p class="description">
+                                    Use web technologies such as PHP, Javascript (Angular JS), CSS (Sementic UI), and MySQL.
                                 </p>
                                 <div class="container-img-timeline">
-                                  <img src="img/logo-cima.png" class="img-timeline">
+                                  <img src="img/logo-cima.png" class="img-timeline img-timeline-cimagroup">
+                                </div>
+
+                                <div class="container-webpage-timeline">
+                                  <a class="webpage-link" href="https://cimagroup.com.mx" target="_blank">
+                                    https://cimagroup.com.mx
+                                  </a>
                                 </div>
                             </div>
                         </div>
                         <div class="timeline-profile">
                             <span class="timeline-icon"></span>
-                            <span class="year">2020 - Actuality</span>
+                            <span class="year">2020 - Present</span>
                             <div class="timeline-content">
                                 <h3 class="title">Web Developer Full Stack Middle in Punto Commerce</h3>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mattis justo id pulvinar suscipit. Pellentesque rutrum vehicula erat sed dictum. Integer quis turpis magna. Suspendisse tincidunt elit at erat tincidunt, vel vulputate arcu dapibus. Etiam accumsan ornare posuere. Nullam est.
+                                    I currently work in an e-commerce agency called Punto Commerce, where I build integrations with NodeJS, design web pages, test and raise requirements to create ecommerce modules.
                                 </p>
 
                                 <div class="container-img-timeline">
-                                  <img src="img/PC_logo_2020_1-3484729.png" class="img-timeline">
+                                  <img src="img/PC_logo_2020_1-3484729.png" class="img-timeline img-timeline-pc">
                                 </div>
+
+                                <div class="container-webpage-timeline">
+                                  <a class="webpage-link" href="https://puntocommerce.com" target="_blank">
+                                    https://puntocommerce.com
+                                  </a>
+                                </div>
+
+
                             </div>
                         </div>
                     </div>
