@@ -1,3 +1,7 @@
+body{
+    background-color: #02102d;
+}
+
 .jumbotron-about {
     width: 100%;
     height: 100vh !important;
@@ -1372,6 +1376,15 @@ body::-webkit-scrollbar {
 
     .timeline-icon{
       display: none;
+    }
+
+    .timeline-profile{
+      padding-left: 0px !important;
+    }
+
+    .content-experience{
+      padding-top: 70px;
+      padding-bottom: 70px;
     }
 }
 

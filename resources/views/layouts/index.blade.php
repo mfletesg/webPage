@@ -7,6 +7,9 @@
 	<title>Miguel Fletes 🎸</title>
 	<link rel="icon" type="image/x-icon" href="{{asset('./img/icon-terminal.svg')}}">
 
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
 
 	<!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
