@@ -19,7 +19,7 @@
               <!-- /.card-body -->
             </div>
             <h1>Miguel Fletes <label class="subTitleInfo">(Mike Fletes)</label></h1>
-            <p><span class="typed" id="textAbout" data-typed-items="I ❤️ Open Source, I'm Developer Laravel, I'm Developer Vtex.IO, I'm Developer IONIC, I'm Developer React, I'm Developer Angular"></span></p>
+            <p><span class="typed" id="textAbout" data-typed-items="I ❤️ Open Source, I'm Developer Laravel, I'm Linuxero, I'm Developer Vtex.IO, I'm Developer IONIC, I'm Developer React, I'm Developer Angular"></span></p>
             <div class="social-icons">
 
               <a class="social-icon social-icon--linkedin" href="https://www.linkedin.com/in/miguel-fletes-garcia-4426b414a/" target="_blank">
@@ -72,17 +72,17 @@
                   </div>
                 </div>
                 <div id="screen">
-                  <p class="command">about</p>
+                  <p class="command"><b>about<b></p>
                   <p class="response"><b>Web Developer Full Stack</b> graduated from Instituto Tecnológicode Colima as a Computer Engineer specializing in <b>"High Performance Software"</b>, passionate about Open Source technologies.</p>
-                  <p class="command">city</p>
+                  <p class="command"><b>city<b></p>
                   <p class="response array">
                     <a class="array-element" href="https://www.google.com/maps/place/Villa+de+%C3%81lvarez,+Col./@19.2765187,-103.8204107,12z/data=!4m5!3m4!1s0x8425453ee675017d:0xb7b213275f421382!8m2!3d19.2662338!4d-103.7390574"  target="_blank" >📍Villa de Alvarez Colima MX</a>,
                     <a class="array-element" href="https://www.google.com/maps/place/Villa+Nicol%C3%A1s+Romero,+M%C3%A9x./@19.6192966,-99.342438,13z/data=!3m1!4b1!4m5!3m4!1s0x85d219638c308a05:0xc1c76fdec34cd1d8!8m2!3d19.6162033!4d-99.3001181"  target="_blank">📍Nicolas Romero Estado de Mexico MX</a>
                   </p>
-                  <p class="command">age</p>
+                  <p class="command"><b>age<b></p>
                   <p class="response"><b>27 years</p>
-                  <p class="command">email</p>
-                  <p class="response"><b>mfletesg@outlook.com</p>
+                  <p class="command">hobbies</p>
+                  <p class="response"><b>Listen Rock Music, Read, Drink Beer and Watch the Sunset :)</p>
                   <p class="command">github</p>
                   <p class="response ">
                     <a class="array-element" href="https://github.com/mfletesg" target="_blank">https://github.com/mfletesg</a>
@@ -503,7 +503,7 @@
               </a>
             </div>
             <div class="swiper-slide swiper-slide-photo">
-              <a href="img/photo_2022-10-02_20-49-25.jpg?text=17" data-toggle="lightbox" data-title="" data-gallery="gallery">
+              <a href="img/photo_2022-10-02_20-49-25.jpg?text=17" data-toggle="lightbox" data-title="Watching the Horizon" data-gallery="gallery">
                 <img src="img/photo_2022-10-02_20-49-25.jpg?text=17" class="img-fluid img-photo mb-2" alt="black sample"/>
               </a>
             </div>

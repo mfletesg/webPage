@@ -37,7 +37,10 @@ class FileXMLController extends Controller
 
     public function store(Request $request)
     {
-        header("Content-type: text/xml"); 
+        //header("Content-type: text/xml"); 
+
+
+
 
         if (!$request->hasFile('fileXML')) {
             return json_encode('bad document');
@@ -70,6 +73,9 @@ class FileXMLController extends Controller
             array_push($planeProducts, $value);
         }
 
+        print_r($planeProducts);
+        die;
+
 
         foreach ($planeProducts as $key => $product) {        
             $flagExist = false;
@@ -83,15 +89,19 @@ class FileXMLController extends Controller
                     if ($product2['product-id'] === $product['product-id']) {
                         $existViewType = in_array($product2['view-type'], array_column($viewTypeArray, 'view-type'));
                         if ($existViewType === false) {
-
                             $paths = array();
                             foreach ($planeProducts as $s => $product3) {
                                 if ($product2['product-id'] === $product3['product-id'] && $product2['view-type'] === $product3['view-type']) {
                                     array_push($paths, $product3['path']);
                                 }
                             }
+
+                            //if(!isset($product2['view-type']) || $product2['view-type'] )
+
                             $viewType = array   (   'view-type' => $product2['view-type'], 
-                                                    'paths' => $paths
+                                                    'paths' => $paths,
+                                                    'attribute-id' => $product2['attribute-id'],
+                                                    'value' => $product2['value'],
                                                 );
                             array_push($viewTypeArray, $viewType);
                         }
@@ -101,6 +111,12 @@ class FileXMLController extends Controller
                 array_push($products, $itemProduct);
             }
         }
+
+        echo "Hola Mundo";
+
+        print_r($products);
+        return json_encode('ok');
+        die;
 
         $productName = '${productname}';
         $title_size = 1;
@@ -180,5 +196,105 @@ class FileXMLController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+
+    public function oldFile(Request $request){
+        header("Content-type: text/xml"); 
+
+        if (!$request->hasFile('fileXML')) {
+            return json_encode('bad document');
+        }
+
+        $file = $request->file('fileXML');
+
+        $extension = $request->file('fileXML')->extension();
+
+        $file->move('uploads', 'file.'.$extension);
+
+        $fileOpen = fopen('uploads/file.'.$extension, 'r');
+
+
+
+        if ($extension === 'xlsx') {
+            $collection = (new FastExcel)->import('uploads/file.'.$extension);
+        }
+        else{
+            $collection = (new FastExcel)->configureCsv(',', '#', 'gbk')->import('uploads/file.'.$extension);
+        }
+
+
+        $products = array();
+        $planeProducts = array();
+        $count = 0;
+
+
+        foreach ($collection as $s => $value) {
+            array_push($planeProducts, $value);
+        }
+
+
+        foreach ($planeProducts as $key => $product) {        
+            $flagExist = false;
+            $flagExit = in_array($product['product-id'], array_column($products, 'product-id'));
+            if ($flagExit === false){
+                $itemProduct = array('product-id' => $product['product-id'], 'images' => array());
+                $viewTypeArray = array();
+                $paths = array();
+                foreach ($planeProducts as $w => $product2) {
+                    $path = array ('path' => $product2['path']);
+                    if ($product2['product-id'] === $product['product-id']) {
+                        $existViewType = in_array($product2['view-type'], array_column($viewTypeArray, 'view-type'));
+                        if ($existViewType === false) {
+                            $paths = array();
+                            foreach ($planeProducts as $s => $product3) {
+                                if ($product2['product-id'] === $product3['product-id'] && $product2['view-type'] === $product3['view-type']) {
+                                    array_push($paths, $product3['path']);
+                                }
+                            }
+                            $viewType = array   (   'view-type' => $product2['view-type'], 
+                                                    'paths' => $paths
+                                                );
+                            array_push($viewTypeArray, $viewType);
+                        }
+                    }
+                }
+                array_push($itemProduct['images'], $viewTypeArray);
+                array_push($products, $itemProduct);
+            }
+        }
+
+        $productName = '${productname}';
+        $title_size = 1;
+
+        $xml = "<?xml version='1.0' encoding='utf-8'?><catalog xmlns='http://www.demandware.com/xml/impex/catalog/2006-10-31' catalog-id='storefront-catalog-m-en'><header><image-settings><internal-location base-path='/' /><view-types><view-type>large</view-type><view-type>medium</view-type><view-type>small</view-type><view-type>swatch</view-type></view-types><alt-pattern>".$productName."</alt-pattern><title-pattern>".$productName."</title-pattern></image-settings></header>";
+        
+        foreach ($products as $r => $product) {
+            $xml .="<product product-id='".$product['product-id']."'>";
+                $xml .="<images>";
+                foreach ($product['images'][0] as $key => $images) {
+                    
+                    $xml .= "<image-group view-type='".$images['view-type']."'>";
+                    foreach ($images['paths'] as $s => $path) {
+                        $xml .= "<image path='".$path."'/>";
+                    }
+                    $xml .= "</image-group>";
+                }
+                $xml .="</images>";   
+            $xml .="</product>";
+        }
+        $xml .= "</catalog>";
+
+
+        $dom = new \DOMDocument('1.0');
+        $dom->preserveWhiteSpace = true;
+        $dom->formatOutput = true;
+        $dom->loadXML($xml);
+        $xml_pretty = $dom->saveXML();
+
+        $fileXML = file_put_contents("uploads/file.xml", $xml_pretty);
+        $fileResponse= public_path(). "/uploads/file.xml";
+        
+        return response()->download($fileResponse);
     }
 }

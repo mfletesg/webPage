@@ -497,9 +497,9 @@
         var formData = new FormData();
         formData.append("fileXML", file[0]);
 
-        console.log(formData)
+        //console.log(formData)
 
-        console.log(!!formData.entries().next().value);
+        //console.log(!!formData.entries().next().value);
 
         const url = `/api/file`;
 
@@ -513,7 +513,8 @@
 
         try {
             let res = await fetch(url, config)
-            response = await res.blob()
+            response = await res.json()
+            //response = await res.blob()
         } catch (e) {
             alert('Hubo un problema en conectarse al servidor')
             console.log(e);
@@ -522,6 +523,9 @@
         }
 
         document.getElementById('loading').style.display = 'none';
+
+        console.log(response)
+        return false;
 
         let random = Math.random() * 2;
         const urlFile = window.URL.createObjectURL(new Blob([response]));

@@ -549,12 +549,11 @@ body::-webkit-scrollbar {
 
 .box div {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     background-color: transparent;
     /*border: 6px solid rgba(255,255,255,0.8);*/
     background-image: url(../img/atomic-energy.svg);
-
 }
 
 .box div:nth-child(1) {
@@ -979,7 +978,7 @@ body::-webkit-scrollbar {
 
 .content-photos {
     padding-top: 110px !important;
-    padding-bottom: 120px;
+    padding-bottom: 140px;
     background-color: #161d32;
 }
 
@@ -1105,17 +1104,24 @@ body::-webkit-scrollbar {
     background-position: -2px 5px, center;
 }
 
-.content-playlist {
-    background-color: #2a2a2a !important;
-    padding-top: 90px;
-    padding-bottom: 100px;
-}
-
-
 .content-experience {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 140px;
     background-color: #E9E9ECFF;
+}
+
+.content-playlist {
+    position:relative;
+    display: block; /* No inline-block */
+    fill: #13364B !important;
+    background-image: url('../img/svg1.svg');
+    background-repeat:no-repeat;
+    background-position: center;
+    width: 100% !important;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-size: 100% 100%;;
+    margin-top: -35px !important;
 }
 
 .container-img-timeline {
@@ -1322,6 +1328,13 @@ body::-webkit-scrollbar {
 }
 
 @media only screen and (max-width:767px) {
+
+    .box div {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+    }
+
     .main-timeline8 {
         overflow: visible
     }
