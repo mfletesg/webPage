@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use Rap2hpoutre\FastExcel\FastExcel;
 
 class FileXMLController extends Controller
@@ -13,6 +12,8 @@ class FileXMLController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+
     public function index()
     {
         return view('uploadFile', ['name' => $_SERVER['REMOTE_ADDR']]);
@@ -37,10 +38,7 @@ class FileXMLController extends Controller
 
     public function store(Request $request)
     {
-        //header("Content-type: text/xml"); 
-
-
-
+        header("Content-type: text/xml"); 
 
         if (!$request->hasFile('fileXML')) {
             return json_encode('bad document');
@@ -73,9 +71,6 @@ class FileXMLController extends Controller
             array_push($planeProducts, $value);
         }
 
-        print_r($planeProducts);
-        die;
-
 
         foreach ($planeProducts as $key => $product) {        
             $flagExist = false;
@@ -95,13 +90,8 @@ class FileXMLController extends Controller
                                     array_push($paths, $product3['path']);
                                 }
                             }
-
-                            //if(!isset($product2['view-type']) || $product2['view-type'] )
-
                             $viewType = array   (   'view-type' => $product2['view-type'], 
-                                                    'paths' => $paths,
-                                                    'attribute-id' => $product2['attribute-id'],
-                                                    'value' => $product2['value'],
+                                                    'paths' => $paths
                                                 );
                             array_push($viewTypeArray, $viewType);
                         }
@@ -111,12 +101,6 @@ class FileXMLController extends Controller
                 array_push($products, $itemProduct);
             }
         }
-
-        echo "Hola Mundo";
-
-        print_r($products);
-        return json_encode('ok');
-        die;
 
         $productName = '${productname}';
         $title_size = 1;

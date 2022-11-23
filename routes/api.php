@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\FileXMLController;
+use App\Http\Controllers\ProductsController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -19,4 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-Route::resource('/file', FileXMLController::class);
+Route::resource('/file', ProductsController::class);

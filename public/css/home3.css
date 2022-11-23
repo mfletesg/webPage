@@ -1322,9 +1322,15 @@ body::-webkit-scrollbar {
 .main-timeline8 .timeline-profile:nth-child(4n) .year {
     background: rgb(255, 88, 99)
 }
-
 .main-timeline8 .timeline-profile:nth-child(4n) .year:before {
     border-top-color: #f2aab3
+}
+
+
+.content-projects{
+    background-color: #2888B1FF;
+    padding-top: 100px;
+    padding-bottom: 140px;
 }
 
 @media only screen and (max-width:767px) {
