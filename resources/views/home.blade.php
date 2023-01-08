@@ -80,9 +80,9 @@
                     <a class="array-element" href="https://www.google.com/maps/place/Villa+Nicol%C3%A1s+Romero,+M%C3%A9x./@19.6192966,-99.342438,13z/data=!3m1!4b1!4m5!3m4!1s0x85d219638c308a05:0xc1c76fdec34cd1d8!8m2!3d19.6162033!4d-99.3001181"  target="_blank">📍Nicolas Romero Estado de Mexico MX</a>
                   </p>
                   <p class="command"><b>age<b></p>
-                  <p class="response"><b>27 years</p>
+                  <p class="response"><b>28 years</p>
                   <p class="command">hobbies</p>
-                  <p class="response"><b>Listen Rock Music, Read, Drink Beer and Watch the Sunset :)</p>
+                  <p class="response"><b>Listen Rock Music 🎸, Read, Drink Beer and Watch the Sunset :)</p>
                   <p class="command">github</p>
                   <p class="response ">
                     <a class="array-element" href="https://github.com/mfletesg" target="_blank">https://github.com/mfletesg</a>
@@ -214,9 +214,9 @@
                 </div>
               </div>
               <div class="progress">
-                <span class="skill"><img src="img/salesforce-2.svg" alt="Bootstrap" class="svgTecnologies"> Salesforce <i class="val">5%</i></span>
+                <span class="skill"><img src="img/salesforce-2.svg" alt="Bootstrap" class="svgTecnologies"> Salesforce <i class="val">25%</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
               <div class="progress">
@@ -356,7 +356,8 @@
       </section>
 
 
-      <section id="projects" class="content projects content-projects section-bg">
+
+      <!--<section id="projects" class="content projects content-projects section-bg">
 
         <div class="container container-skills">
           <div class="section-title">
@@ -427,7 +428,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
 
       <section id="playlist" class="content content-playlist resume section-bg">
@@ -440,12 +441,16 @@
               </div>
             </div>
 
-            <div class="col-md-6 playlist1">
+            <div class="col-md-4">
               <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/48zDtuxp7T7GMyP6RfOsCq?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
 
-            <div class="col-md-6">
-              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5j9R3LNUGd4I8wb9owrPPy?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            <div class="col-md-4  playlist1">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0jEeuJxnkHp6xPVEPigp82?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+
+            <div class="col-md-4  playlist1">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5j9R3LNUGd4I8wb9owrPPy?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
           </div>
         </div>
@@ -469,6 +474,21 @@
 
         <div #swiperRef="" class="swiper mySwiper">
           <div class="swiper-wrapper">
+
+            <div class="swiper-slide swiper-slide-photo">
+                <a href="img/photo_2023-01-05_22-48-03.jpg?text=22" data-toggle="lightbox" data-title="View of the horizon under a tree" data-gallery="gallery">
+                  <img src="img/photo_2023-01-05_22-48-03.jpg?text=22" class="img-fluid img-photo mb-2" alt="black sample"/>
+                </a>
+            </div>
+
+            <div class="swiper-slide swiper-slide-photo">
+                <a href="img/photo_2022-12-23_14-39-36.jpg?text=21" data-toggle="lightbox" data-title="28th birthday, with coffee 🎂" data-gallery="gallery">
+                  <img src="img/photo_2022-12-23_14-39-36.jpg?text=21" class="img-fluid img-photo mb-2" alt="black sample"/>
+                </a>
+            </div>
+
+
+
             <div class="swiper-slide swiper-slide-photo">
               <a href="img/photo_2022-10-02_17-53-20.jpg?text=14" data-toggle="lightbox" data-title="Colima volcano" data-gallery="gallery">
                 <img src="img/photo_2022-10-02_17-53-20.jpg?text=14" class="img-fluid img-photo mb-2" alt="black sample"/>

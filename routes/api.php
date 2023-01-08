@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\RockController;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -20,3 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 Route::resource('/file', ProductsController::class);
+Route::resource('/api-bandas', RockController::class);
