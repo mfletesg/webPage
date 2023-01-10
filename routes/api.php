@@ -21,5 +21,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
+
 Route::resource('/file', ProductsController::class);
 Route::resource('/api-bandas', RockController::class);
