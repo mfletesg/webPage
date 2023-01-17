@@ -1,9 +1,15 @@
+let objectTyped = null;
 $( document ).ready(function() {
   clearInpurContact()
   var maxChars = 255;
   var textLength = 0;
   var inputMessage = "";
   var outOfChars = 'You have reached the limit of ' + maxChars + ' characters';
+  getLanguage();
+
+  
+
+
 
   /* initalize for when no data is in localStorage */
   var count = maxChars;
@@ -245,6 +251,74 @@ function clearInpurContact(){
 	document.getElementById('inputEmail').value = "";
 	document.getElementById('inputSubject').value = "";
 	document.getElementById('inputMessage').value = "";
+}
+
+function setLanguage(){
+	if (!typeof(localStorage.getItem('idLanguage'))) {
+		idLanguage = 0;
+		localStorage.setItem('idLanguage', idLanguage);
+		document.getElementById("button-language").innerHTML = "🇺🇸  English"
+
+	}
+	else{
+		idLanguage = localStorage.getItem('idLanguage');
+	}
+
+	getLanguage(idLanguage);
+}
+
+
+function getLanguage(idLanguage){
+		fetch('/language/home.json')
+	  .then(response => response.json())
+	  .then(data => {
+
+	  	console.log(data);
+
+			const typed = document.getElementById('textAbout');
+			if (typed) {
+		  	try {
+		  		objectTyped.destroy();
+		  		
+		  	} catch(e) {
+		  		console.log(e)
+		  	}
+
+		  	let typed_strings = data[idLanguage].infoGeneral.Iam;
+		  	//let typed_strings = typed.getAttribute('data-typed-items')
+			    typed_strings = typed_strings.split(',')
+			    objectTyped = new Typed('.typed', {
+			      strings: typed_strings,
+			      loop: true,
+			      typeSpeed: 100,
+			      backSpeed: 50,
+			      backDelay: 2000
+			    });
+		  	
+			}
+
+	  });
+}
+
+
+function changeLanguage(){
+
+	idLanguage = localStorage.getItem('idLanguage');
+
+	if (idLanguage == 1) {
+		idLanguage = 0;
+		document.getElementById("button-language").innerHTML = "🇲🇽  Español";
+		
+	}
+	else{
+		idLanguage = 1
+		document.getElementById("button-language").innerHTML = "🇺🇸  English";
+	}
+
+	localStorage.setItem('idLanguage', idLanguage);
+
+	getLanguage(idLanguage)
+
 }
 
 	/*showNotificationSuccess();*/

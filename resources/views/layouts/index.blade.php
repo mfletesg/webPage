@@ -110,18 +110,28 @@
 
 
 		$(document).ready(function() {
-			const typed = document.getElementById('textAbout');
-		  if (typed) {
-		    let typed_strings = typed.getAttribute('data-typed-items')
-		    typed_strings = typed_strings.split(',')
-		    new Typed('.typed', {
-		      strings: typed_strings,
-		      loop: true,
-		      typeSpeed: 100,
-		      backSpeed: 50,
-		      backDelay: 2000
-		    });
-		  }
+
+			// const typed = document.getElementById('textAbout');
+		  // if (typed) {
+
+		  // 	try {
+		  // 		let objectTyped = null;
+		  // 	} catch(e) {
+		  // 		// statements
+		  // 		console.log(e);
+		  // 	}
+
+
+		  //   let typed_strings = typed.getAttribute('data-typed-items')
+		  //   typed_strings = typed_strings.split(',')
+		  //   objectTyped = new Typed('.typed', {
+		  //     strings: typed_strings,
+		  //     loop: true,
+		  //     typeSpeed: 100,
+		  //     backSpeed: 50,
+		  //     backDelay: 2000
+		  //   });
+		  // }
 
 		 	const select = (el, all = false) => {
 		    el = el.trim()

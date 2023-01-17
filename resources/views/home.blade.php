@@ -5,6 +5,12 @@
   <div class="wrapper">
 
     <div class="content-wrapper">
+
+
+      <button type="button" class="btn btn-outline-primary btn-block button-language" onclick="changeLanguage()" id="button-language">
+        🇲🇽  Español
+      </button>
+
       <!-- Content Header (Page header) -->
       <section class="jumbotron text-center h-100 jumbotron-about">
         <div class="container">

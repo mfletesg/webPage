@@ -1159,15 +1159,13 @@ body::-webkit-scrollbar {
     font-size: 13px;
 }
 
-
-
-
-
-
-
-
-
-
+.button-language{
+    width: 130px;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 2;
+}
 
 
 /******************* Timeline Demo - 8 *****************/
