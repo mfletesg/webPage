@@ -68,7 +68,7 @@
                 <div></div>
                 <div></div>
               </div>
-              <h2 class="about-title">About</h2>
+              <h2 class="about-title" id="about-title">About</h2>
               <div data-aos="fade-up" data-aos-offset="0" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="false" data-aos-once="false" data-aos-anchor-placement="top-top top-bottom center-center">
                 <div id="bar">
                   <div class="button-windows">
@@ -78,15 +78,18 @@
                   </div>
                 </div>
                 <div id="screen">
-                  <p class="command"><b>about<b></p>
-                  <p class="response"><b>Web Developer Full Stack</b> graduated from Instituto Tecnológicode Colima as a Computer Engineer specializing in <b>"High Performance Software"</b>, passionate about Open Source technologies.</p>
-                  <p class="command"><b>city<b></p>
+                  <p class="command" id="terminalTitle1"><b>about<b></p>
+                  <p class="response" id="terminalText1"><b>Web Developer Full Stack</b> graduated from Instituto Tecnológicode Colima as a Computer Engineer specializing in <b>"High Performance Software"</b>, passionate about Open Source technologies.</p>
+
+                  <p class="command" id="terminalTitle2"><b>city<b></p>
                   <p class="response array">
                     <a class="array-element" href="https://www.google.com/maps/place/Villa+de+%C3%81lvarez,+Col./@19.2765187,-103.8204107,12z/data=!4m5!3m4!1s0x8425453ee675017d:0xb7b213275f421382!8m2!3d19.2662338!4d-103.7390574"  target="_blank" >📍Villa de Alvarez Colima MX</a>,
                     <a class="array-element" href="https://www.google.com/maps/place/Villa+Nicol%C3%A1s+Romero,+M%C3%A9x./@19.6192966,-99.342438,13z/data=!3m1!4b1!4m5!3m4!1s0x85d219638c308a05:0xc1c76fdec34cd1d8!8m2!3d19.6162033!4d-99.3001181"  target="_blank">📍Nicolas Romero Estado de Mexico MX</a>
                   </p>
-                  <p class="command"><b>age<b></p>
-                  <p class="response"><b>28 years</p>
+
+                  <p class="command" id="terminalTitle3"><b>age<b></p>
+                  <p class="response" id="terminalText3"><b>28 years</p>
+
                   <p class="command">hobbies</p>
                   <p class="response"><b>Listen Rock Music 🎸, Read, Drink Beer and Watch the Sunset :)</p>
                   <p class="command">github</p>
@@ -458,6 +461,8 @@
             <div class="col-md-4  playlist1">
               <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5j9R3LNUGd4I8wb9owrPPy?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
+
+
           </div>
         </div>
       </section>

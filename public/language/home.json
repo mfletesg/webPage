@@ -3,6 +3,27 @@
 	"language" : "english",
 	"infoGeneral" : {
 		"Iam" : "I ❤️ Open Source, I'm Developer Laravel, I'm Linuxero, I'm Developer Vtex.IO, I'm Developer IONIC, I'm Developer React, I'm Developer Angular"
+	},
+	"about" : {
+		"title" : "About",
+		"terminal" : {
+			"item1": {
+				"title" : "about",
+				"text"	: "Web Developer Full Stack graduated from Instituto Tecnológicode Colima as a Computer Engineer specializing in 'High Performance Software', passionate about Open Source technologies."
+			},
+			"item2": {
+				"title" : "city",
+				"text"	: ""
+			},
+			"item3": {
+				"title" : "age",
+				"text"	: "28 years"
+			},
+			"item4": {
+				"title" : "hobbies",
+				"text"	: "28 years"
+			}
+		}
 	}
 },
 {
@@ -10,5 +31,27 @@
 	"language" : "spanish",
 	"infoGeneral" : {
 		"Iam" : "Yo ❤️ el Open Source, Yo soy Developer Laravel, Y soy Linuxero, Yo soy Developer Vtex.IO, Y soy Developer IONIC, Y soy Developer en React, Y soy Developer en Angular"
+	},
+	"about" : {
+		"title" : "Acerca de Mi",
+		"terminal" : {
+			"item1": {
+				"title" : "soy",
+				"text"	: "Desarrollador Web Full Stack egresado del Instituto Tecnológicode Colima como Ingeniero en Informatica especializado en 'Software de alto rendimiento', apasionado por tecnologias de Codigo Abierto (Open Source)."
+			},
+			"item2": {
+				"title" : "ciudad",
+				"text"	: ""
+			},
+			"item3": {
+				"title" : "edad",
+				"text"	: "28 años"
+			},
+			"item4": {
+				"title" : "hobbies",
+				"text"	: "28 years"
+			}
+		}
 	}
+
 }]

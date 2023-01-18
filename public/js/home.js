@@ -5,7 +5,7 @@ $( document ).ready(function() {
   var textLength = 0;
   var inputMessage = "";
   var outOfChars = 'You have reached the limit of ' + maxChars + ' characters';
-  getLanguage();
+  setLanguage();
 
   
 
@@ -286,16 +286,27 @@ function getLanguage(idLanguage){
 
 		  	let typed_strings = data[idLanguage].infoGeneral.Iam;
 		  	//let typed_strings = typed.getAttribute('data-typed-items')
-			    typed_strings = typed_strings.split(',')
-			    objectTyped = new Typed('.typed', {
-			      strings: typed_strings,
-			      loop: true,
-			      typeSpeed: 100,
-			      backSpeed: 50,
-			      backDelay: 2000
-			    });
+		    typed_strings = typed_strings.split(',')
+		    objectTyped = new Typed('.typed', {
+		      strings: typed_strings,
+		      loop: true,
+		      typeSpeed: 100,
+		      backSpeed: 50,
+		      backDelay: 2000
+		    });
+
+		    document.getElementById('about-title').innerHTML = data[idLanguage].about.title;
+		    document.getElementById('terminalTitle1').innerHTML = data[idLanguage].about.terminal.item1.title;
+		    document.getElementById('terminalText1').innerHTML = data[idLanguage].about.terminal.item1.text;
+
+		    document.getElementById('terminalTitle2').innerHTML = data[idLanguage].about.terminal.item2.title;
+
+		    document.getElementById('terminalTitle3').innerHTML = data[idLanguage].about.terminal.item3.title;
+		    document.getElementById('terminalText3').innerHTML = data[idLanguage].about.terminal.item3.text;
 		  	
 			}
+
+
 
 	  });
 }
