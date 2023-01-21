@@ -11,6 +11,10 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 
+	<meta http-equiv='cache-control' content='no-cache'>
+	<meta http-equiv='expires' content='0'>
+	<meta http-equiv='pragma' content='no-cache'>
+
 	<!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

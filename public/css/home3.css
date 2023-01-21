@@ -1164,7 +1164,13 @@ body::-webkit-scrollbar {
     position: fixed;
     margin-top: 20px;
     margin-left: 20px;
-    z-index: 2;
+    z-index: 4;
+    background-color: rgba(11, 11, 116, 0.35) !important;
+}
+
+.text-language-btn{
+    margin-bottom: 0px;
+
 }
 
 
@@ -1523,6 +1529,15 @@ body::-webkit-scrollbar {
 @media (max-width: 767px) {
     .playlist1 {
         display: none;
+    }
+
+    .text-language-btn{
+        display: none;
+    }
+
+    .button-language{
+        width: 100px;
+        font-size: 13px;
     }
 }
 

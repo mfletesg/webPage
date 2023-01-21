@@ -21,9 +21,58 @@
 			},
 			"item4": {
 				"title" : "hobbies",
-				"text"	: "28 years"
+				"text"	: "Listen Rock Music 🎸, Read, Drink Beer and Watch the Sunset :)"
 			}
 		}
+	},
+	"skills" : {
+		"title" : "Skills",
+		"description" : "My skills are based on Full Stack development for mobile and web applications, I also design vector drawings and designs for smart watches"
+	},
+	"experience" : {
+		"title" : "Experience",
+		"timeLine" : {
+			"item1": {
+				"date" : "2012 - 2017",
+				"title" : "Student of the Instituto Tecnologico de Colima",
+				"description"	: "I studied at the Instituto Tecnologico de Colima in the computer engineering career with a specialty in high-performance software."
+			},
+			"item2": {
+				"date" : "2018",
+				"title" : "Developer Junior in ColimaSoft",
+				"description"	: "My first job as a software developer was in the ColimaSoft company, where I developed web and mobile applications, especially in PHP and JavaScript. \n ColimaSoft is a custom software development company."
+			},
+			"item3": {
+				"date" : "2019",
+				"title" : "Web Developer Full Stack in CIMA Group",
+				"description"	: "My second job was at Grupo CIMA \nCima Group is a port logistics company, he worked as a Full-Stack developer creating internal modules to streamline the company's logistics processes. \nUse web technologies such as PHP, Javascript (Angular JS), CSS (Sementic UI), and MySQL."
+			},
+			"item4": {
+				"date" : "2019",
+				"title" : "Web Developer Full Stack Middle in Punto Commerce",
+				"description"	: "I currently work in an e-commerce agency called Punto Commerce, where I build integrations with NodeJS, design web pages, test and raise requirements to create ecommerce modules."
+			}
+		}
+	},
+	"playlist" : {
+		"title" : "My playlist"
+	},
+	"photos" : {
+		"title" : "My photos"
+	},
+	"contact" : {
+		"title" : "Contact",
+		"text" : "Send me a message to drink a coffee or beer, talk about code and software projects!!",
+		"form" : {
+			"name" : "Name",
+			"email" : "Email",
+			"subject" : "Subject",
+			"message" : "Message",
+			"btnSend" : "Send Message!"
+		}
+	},
+	"footer" : {
+		"text" : "Make with 🎸, 🍺, ☕ and Open Source"
 	}
 },
 {
@@ -48,10 +97,58 @@
 				"text"	: "28 años"
 			},
 			"item4": {
-				"title" : "hobbies",
-				"text"	: "28 years"
+				"title" : "pasatiempos",
+				"text"	: "Escuchar Musica Rock  🎸, Leer, Tomar Cerveza y ver el Atardecer :)"
 			}
 		}
+	},
+	"skills" : {
+		"title" : "Habilidades",
+		"description" : "Mis habilidades se basan en un Desarrollador de aplicaciones mobiles y webs, también diseño dibujos vectoriales y programo fondos para rejos inteligentes."
+	},
+	"experience" : {
+		"title" : "Experiencia",
+		"timeLine" : {
+			"item1": {
+				"date" : "2012 - 2017",
+				"title" : "Estudiante del Instituto Tecnologico de Colima",
+				"description"	: "Estudie en el Instituto Tecnológico de Colima cursando la carrera Ingeniería en informática con especialidad en Software de Alto Rendimiento"
+			},
+			"item2": {
+				"date" : "2018",
+				"title" : "Desarrollador de Software Junior en ColimaSoft",
+				"description"	: "Mi primero trabajo fue como desarrollador de software Junior en la empresa ColimaSoft, ahi desarrollaba aplicaciones móviles, especialmente en PHP y Javascript. \n\n ColimaSoft es una empresa de creación de Software de la Medida."
+			},
+			"item3": {
+				"date" : "2019",
+				"title" : "Desarrollador Web Full Stack en Grupo CIMA",
+				"description"	: "Mi segundo trabajo fue en Grupo CIMA, \n\n la cual es una empresa de logística portuaria de contenedores, ahi trabaje como desarrollador Full-Stack creando modelos internos para llevar el proceso logístico general de la compañía, Use tecnologías web como PHP, Javascript (Angular JS), CSS (Sementic UI), y MySQL"
+			},
+			"item4": {
+				"date" : "2019",
+				"title" : "Desarrollador Web Full Stack Middle en Punto Commerce",
+				"description"	: "Yo actualmente trabajo en una agencia de comercio electrónico llamada Punto Commerce, Yo ahi construyo integraciones con NodeJs y PHP, también diseño paginas web con un gran detalle de diseño, testeo y tomo los requerimientos para crear modelos para cada tienda de comercio electrónico,"
+			}
+		}
+	},
+	"playlist" : {
+		"title" : "Mi listas de canciones favoritas"
+	},
+	"photos" : {
+		"title" : "Mis fotos"
+	},
+	"contact" : {
+		"title" : "Contacto",
+		"text" : "Madame un mensaje para tomar un cafe o una cerveza, y hablar acerca de proyectos de software!!",
+		"form" : {
+			"name" : "Nombre",
+			"email" : "Correo Eletronico",
+			"subject" : "Asunto",
+			"message" : "Escribe aqui tu Mensaje :)",
+			"btnSend" : "Enviar Mensaje!"
+		}
+	},
+	"footer" : {
+		"text" : "Creado con 🎸, 🍺, ☕ y Codigo Abierto"
 	}
-
 }]

@@ -254,21 +254,25 @@ function clearInpurContact(){
 }
 
 function setLanguage(){
-	if (!typeof(localStorage.getItem('idLanguage'))) {
+	if (localStorage.getItem('idLanguage') !== "undefined" ) {
 		idLanguage = 0;
 		localStorage.setItem('idLanguage', idLanguage);
 		document.getElementById("button-language").innerHTML = "🇺🇸  English"
 
+
 	}
 	else{
 		idLanguage = localStorage.getItem('idLanguage');
+		console.log(idLanguage);
 	}
+
 
 	getLanguage(idLanguage);
 }
 
 
 function getLanguage(idLanguage){
+	console.log(idLanguage)
 		fetch('/language/home.json')
 	  .then(response => response.json())
 	  .then(data => {
@@ -284,6 +288,8 @@ function getLanguage(idLanguage){
 		  		console.log(e)
 		  	}
 
+		  	console.log(data[idLanguage].infoGeneral.Iam);
+
 		  	let typed_strings = data[idLanguage].infoGeneral.Iam;
 		  	//let typed_strings = typed.getAttribute('data-typed-items')
 		    typed_strings = typed_strings.split(',')
@@ -296,6 +302,7 @@ function getLanguage(idLanguage){
 		    });
 
 		    document.getElementById('about-title').innerHTML = data[idLanguage].about.title;
+
 		    document.getElementById('terminalTitle1').innerHTML = data[idLanguage].about.terminal.item1.title;
 		    document.getElementById('terminalText1').innerHTML = data[idLanguage].about.terminal.item1.text;
 
@@ -303,6 +310,49 @@ function getLanguage(idLanguage){
 
 		    document.getElementById('terminalTitle3').innerHTML = data[idLanguage].about.terminal.item3.title;
 		    document.getElementById('terminalText3').innerHTML = data[idLanguage].about.terminal.item3.text;
+
+
+		    document.getElementById('terminalTitle4').innerHTML = data[idLanguage].about.terminal.item4.title;
+		    document.getElementById('terminalText4').innerHTML = data[idLanguage].about.terminal.item4.text;
+
+		    document.getElementById('skills-title').innerHTML = data[idLanguage].skills.title;
+		    document.getElementById('skills-description').innerHTML = data[idLanguage].skills.description;
+
+		    document.getElementById('experience-title').innerHTML = data[idLanguage].experience.title;
+
+		    document.getElementById('item1Year').innerHTML = data[idLanguage].experience.timeLine.item1.date;
+		    document.getElementById('item1Title').innerHTML = data[idLanguage].experience.timeLine.item1.title;
+		    document.getElementById('item1Description').innerHTML = data[idLanguage].experience.timeLine.item1.description;
+
+		    document.getElementById('item2Year').innerHTML = data[idLanguage].experience.timeLine.item2.date;
+		    document.getElementById('item2Title').innerHTML = data[idLanguage].experience.timeLine.item2.title;
+		    document.getElementById('item2Description').innerHTML = data[idLanguage].experience.timeLine.item2.description;
+
+		    document.getElementById('item3Year').innerHTML = data[idLanguage].experience.timeLine.item3.date;
+		    document.getElementById('item3Title').innerHTML = data[idLanguage].experience.timeLine.item3.title;
+		    document.getElementById('item3Description').innerHTML = data[idLanguage].experience.timeLine.item3.description;
+
+		    document.getElementById('item4Year').innerHTML = data[idLanguage].experience.timeLine.item4.date;
+		    document.getElementById('item4Title').innerHTML = data[idLanguage].experience.timeLine.item4.title;
+		    document.getElementById('item4Description').innerHTML = data[idLanguage].experience.timeLine.item4.description;
+
+
+		    document.getElementById('title-playlist').innerHTML = data[idLanguage].playlist.title;
+		    document.getElementById('title-photos').innerHTML = data[idLanguage].photos.title
+
+		    document.getElementById('titleContact').innerHTML = data[idLanguage].contact.title;
+		    document.getElementById('textContact').innerHTML = data[idLanguage].contact.text;
+		    document.getElementById('inputName').placeholder = data[idLanguage].contact.form.name;
+		    document.getElementById('inputEmail').placeholder = data[idLanguage].contact.form.email;
+		    document.getElementById('inputSubject').placeholder = data[idLanguage].contact.form.subject;
+		    document.getElementById('inputMessage').placeholder = data[idLanguage].contact.form.message;
+		    document.getElementById('inputMessage').placeholder = data[idLanguage].contact.form.message;
+		    document.getElementById('btnSendMessage').innerHTML = data[idLanguage].contact.form.btnSend;
+
+		    document.getElementById('text-footer').innerHTML = data[idLanguage].footer.text;
+		    
+
+
 		  	
 			}
 

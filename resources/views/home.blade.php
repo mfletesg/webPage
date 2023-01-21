@@ -8,7 +8,7 @@
 
 
       <button type="button" class="btn btn-outline-primary btn-block button-language" onclick="changeLanguage()" id="button-language">
-        🇲🇽  Español
+        🇲🇽  <label class="text-language-btn">Español</label>
       </button>
 
       <!-- Content Header (Page header) -->
@@ -90,8 +90,8 @@
                   <p class="command" id="terminalTitle3"><b>age<b></p>
                   <p class="response" id="terminalText3"><b>28 years</p>
 
-                  <p class="command">hobbies</p>
-                  <p class="response"><b>Listen Rock Music 🎸, Read, Drink Beer and Watch the Sunset :)</p>
+                  <p class="command" id="terminalTitle4">hobbies</p>
+                  <p class="response" id="terminalText4"><b>Listen Rock Music 🎸, Read, Drink Beer and Watch the Sunset :)</p>
                   <p class="command">github</p>
                   <p class="response ">
                     <a class="array-element" href="https://github.com/mfletesg" target="_blank">https://github.com/mfletesg</a>
@@ -111,8 +111,8 @@
       <section id="skills" class="content  skills section-bg">
         <div class="container container-skills">
           <div class="section-title">
-            <h2 class="skills-title">Skills</h2>
-            <p class="skills-description">My skills are based on Full Stack development for mobile and web applications, I also design vector drawings and designs for smart watches</p>
+            <h2 class="skills-title" id="skills-title">Skills</h2>
+            <p class="skills-description" id="skills-description">My skills are based on Full Stack development for mobile and web applications, I also design vector drawings and designs for smart watches</p>
           </div>
           <div class="row skills-content">
             <div class="col-lg-6" data-aos="fade-up">
@@ -248,7 +248,7 @@
       
       <section id="experience" class="content experience content-experience section-bg">
         <div class="section-title">
-          <h2 class="skills-title">Experience</h2>
+          <h2 class="skills-title" id="experience-title">Experience</h2>
           <br>
         </div>
 
@@ -262,10 +262,10 @@
                     <div class="main-timeline8">
                         <div class="timeline-profile">
                             <span class="timeline-icon"></span>
-                            <span class="year">2012 - 2017</span>
+                            <span class="year" id="item1Year">2012 - 2017</span>
                             <div class="timeline-content">
-                                <h3 class="title">Student of the Instituto Tecnologico de Colima</h3>
-                                <p class="description">
+                                <h3 class="title" id="item1Title">Student of the Instituto Tecnologico de Colima</h3>
+                                <p class="description" id="item1Description">
                                     I studied at the Instituto Tecnologico de Colima in the computer engineering career with a specialty in high-performance software.
                                 </p>
 
@@ -285,16 +285,13 @@
   
                         <div class="timeline-profile">
                             <span class="timeline-icon"></span>
-                            <span class="year">2018</span>
+                            <span class="year" id="item2Year">2018</span>
                             <div class="timeline-content">
-                                <h3 class="title">Developer Junior in Colimasoft</h3>
-                                <p class="description">
+                                <h3 class="title" id="item2Title">Developer Junior in Colimasoft</h3>
+                                <p class="description" id="item2Description">
                                     My first job as a software developer was in the ColimaSoft company, where I developed web and mobile applications, especially in PHP and JavaScript.
                                 </p>
 
-                                <p class="description">
-                                    ColimaSoft is a custom software development company.
-                                </p>
 
                                 <div class="container-img-timeline">
                                   <img src="img/LOGO12.0f0d9fbf.png" class="img-timeline img-timeline-colimasoft">
@@ -311,19 +308,15 @@
                         </div>
                         <div class="timeline-profile">
                             <span class="timeline-icon"></span>
-                            <span class="year">2019</span>
+                            <span class="year" id="item3Year">2019</span>
                             <div class="timeline-content">
-                                <h3 class="title">Web Developer Full Stack in CIMA Group</h3>
-                                <p class="description">
-                                  My second job was at Grupo CIMA
-                                </p>
-                                <p class="description">
+                                <h3 class="title" id="item3Title">Web Developer Full Stack in CIMA Group</h3>
+              
+                                <p class="description" id="item3Description">
                                     Cima Group is a port logistics company, he worked as a Full-Stack developer creating internal modules to streamline the company's logistics processes.
                                 </p>
 
-                                <p class="description">
-                                    Use web technologies such as PHP, Javascript (Angular JS), CSS (Sementic UI), and MySQL.
-                                </p>
+                               
                                 <div class="container-img-timeline">
                                   <img src="img/logo-cima.png" class="img-timeline img-timeline-cimagroup">
                                 </div>
@@ -337,10 +330,10 @@
                         </div>
                         <div class="timeline-profile">
                             <span class="timeline-icon"></span>
-                            <span class="year">2020 - Present</span>
+                            <span class="year" id="item4Year">2020 - Present</span>
                             <div class="timeline-content">
-                                <h3 class="title">Web Developer Full Stack Middle in Punto Commerce</h3>
-                                <p class="description">
+                                <h3 class="title" id="item4Title">Web Developer Full Stack Middle in Punto Commerce</h3>
+                                <p class="description" id="item4Description">
                                     I currently work in an e-commerce agency called Punto Commerce, where I build integrations with NodeJS, design web pages, test and raise requirements to create ecommerce modules.
                                 </p>
 
@@ -446,7 +439,7 @@
 
             <div class="col-md-12">
               <div class="section-title">
-                <h2 class="title-photos">My playlist</h2>
+                <h2 class="title-photos" id="title-playlist">My playlist</h2>
               </div>
             </div>
 
@@ -477,7 +470,7 @@
           <div class="row">
             <div class="col-md-12">
               <div class="section-title">
-               <h2 class="title-photos">My photos</h2>
+               <h2 class="title-photos" id="title-photos">My photos</h2>
               </div>
             </div>
           </div>
@@ -631,8 +624,8 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="titleContact">Contact</h2>
-              <p class="textContact">Send me a message to drink a coffee or beer, talk about code and software projects!!</p>
+              <h2 class="titleContact" id="titleContact">Contact</h2>
+              <p class="textContact" id="textContact">Send me a message to drink a coffee or beer, talk about code and software projects!!</p>
 
               <div class="row">
                 <div class="col-sm-8 col-md-8  col-lg-8 ">
@@ -717,7 +710,7 @@
     </div>
     <!-- /.content-wrapper -->
     <footer class="main-footer">
-      <p class="text-footer">Make with 🎸, 🍺, ☕ and Open Source</p>
+      <p class="text-footer" id="text-footer">Make with 🎸, 🍺, ☕ and Open Source</p>
     </footer>
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
