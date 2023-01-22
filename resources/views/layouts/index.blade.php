@@ -72,8 +72,8 @@
 		<script src="{{secure_asset('plugins/ekko-lightbox/ekko-lightbox.min.js')}}"></script>
 
 
-		<script src="{{secure_asset('js/home.js')}}" type="text/javascript"></script>
-		<script src="{{secure_asset('js/s.js')}}" type="text/javascript"></script>
+		<script src="{{secure_asset('js/home.js?version=1.0.1')}}" type="text/javascript"></script>
+		<script src="{{secure_asset('js/s.js?version=1.0.1')}}" type="text/javascript"></script>
 	@endif
 
 
@@ -112,31 +112,7 @@
 
 	<script type="text/javascript">
 
-
 		$(document).ready(function() {
-
-			// const typed = document.getElementById('textAbout');
-		  // if (typed) {
-
-		  // 	try {
-		  // 		let objectTyped = null;
-		  // 	} catch(e) {
-		  // 		// statements
-		  // 		console.log(e);
-		  // 	}
-
-
-		  //   let typed_strings = typed.getAttribute('data-typed-items')
-		  //   typed_strings = typed_strings.split(',')
-		  //   objectTyped = new Typed('.typed', {
-		  //     strings: typed_strings,
-		  //     loop: true,
-		  //     typeSpeed: 100,
-		  //     backSpeed: 50,
-		  //     backDelay: 2000
-		  //   });
-		  // }
-
 		 	const select = (el, all = false) => {
 		    el = el.trim()
 		    if (all) {
@@ -161,12 +137,6 @@
 		  }
 		});
 		window.addEventListener('load', () => {
-
-
-	    // let skilsContent = select('.skills-content');
-
-
-
 		})
 		</script>
 	</body>
