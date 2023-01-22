@@ -30,7 +30,7 @@
   @if($name =='127.0.0.1')
 	  <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
 	  <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
-	  <link rel="stylesheet" href="{{asset('css/home3.css')}}">
+	  <link rel="stylesheet" href="{{asset('css/home.css?v=1.0.1')}}">
 	  <link rel="stylesheet" href="{{asset('plugins/ekko-lightbox/ekko-lightbox.css')}}" >
 
 
@@ -55,7 +55,7 @@
   @else
     <link rel="stylesheet" href="{{secure_asset('plugins/fontawesome-free/css/all.min.css')}}">
   	<link rel="stylesheet" href="{{secure_asset('dist/css/adminlte.min.css')}}">
-  	<link rel="stylesheet" href="{{secure_asset('css/home3.css')}}">
+  	<link rel="stylesheet" href="{{secure_asset('css/home.css?v=1.0.1')}}">
   	<link rel="stylesheet" href="{{secure_asset('plugins/ekko-lightbox/ekko-lightbox.css')}}" >
 
   	<script src="{{secure_asset('plugins/jquery/jquery.min.js')}}"></script>

@@ -50,7 +50,7 @@
 			"item4": {
 				"date" : "2019",
 				"title" : "Web Developer Full Stack Middle in Punto Commerce",
-				"description"	: "I currently work in an e-commerce agency called Punto Commerce, where I build integrations with NodeJS, design web pages, test and raise requirements to create ecommerce modules."
+				"description"	: "I currently work in an e-commerce agency called Punto Commerce, where I build integrations with NodeJS and PHP, design web pages with a great design detail, test and raise requirements to create ecommerce modules. The e-commerce CMS that I use are: VTEX.io and Salesforce"
 			}
 		}
 	},
@@ -104,7 +104,7 @@
 	},
 	"skills" : {
 		"title" : "Habilidades",
-		"description" : "Mis habilidades se basan en un Desarrollador de aplicaciones mobiles y webs, también diseño dibujos vectoriales y programo fondos para rejos inteligentes."
+		"description" : "Mis habilidades se basan como Desarrollador de aplicaciones mobiles y webs, diseño dibujos vectoriales y programo fondos para relojes inteligentes."
 	},
 	"experience" : {
 		"title" : "Experiencia",
@@ -112,27 +112,27 @@
 			"item1": {
 				"date" : "2012 - 2017",
 				"title" : "Estudiante del Instituto Tecnologico de Colima",
-				"description"	: "Estudie en el Instituto Tecnológico de Colima cursando la carrera Ingeniería en informática con especialidad en Software de Alto Rendimiento"
+				"description"	: "Estudie en el 'Instituto Tecnológico de Colima' cursando la carrera Ingeniería en informática con especialidad en 'Software de Alto Rendimiento'"
 			},
 			"item2": {
 				"date" : "2018",
-				"title" : "Desarrollador de Software Junior en ColimaSoft",
-				"description"	: "Mi primero trabajo fue como desarrollador de software Junior en la empresa ColimaSoft, ahi desarrollaba aplicaciones móviles, especialmente en PHP y Javascript. \n\n ColimaSoft es una empresa de creación de Software de la Medida."
+				"title" : "Programador de Software Junior en ColimaSoft",
+				"description"	: "Mi primero trabajo fue como desarrollador de software Junior en la empresa ColimaSoft, desarrollaba aplicaciones móviles, especialmente en PHP y Javascript. \n\n ColimaSoft es una empresa de creación de Software de la Medida."
 			},
 			"item3": {
 				"date" : "2019",
-				"title" : "Desarrollador Web Full Stack en Grupo CIMA",
+				"title" : "Programador Web Full-Stack en Grupo CIMA",
 				"description"	: "Mi segundo trabajo fue en Grupo CIMA, \n\n la cual es una empresa de logística portuaria de contenedores, ahi trabaje como desarrollador Full-Stack creando modelos internos para llevar el proceso logístico general de la compañía, Use tecnologías web como PHP, Javascript (Angular JS), CSS (Sementic UI), y MySQL"
 			},
 			"item4": {
 				"date" : "2019",
-				"title" : "Desarrollador Web Full Stack Middle en Punto Commerce",
-				"description"	: "Yo actualmente trabajo en una agencia de comercio electrónico llamada Punto Commerce, Yo ahi construyo integraciones con NodeJs y PHP, también diseño paginas web con un gran detalle de diseño, testeo y tomo los requerimientos para crear modelos para cada tienda de comercio electrónico,"
+				"title" : "Programador Web Full-Stack Middle en Punto Commerce",
+				"description"	: "Trabajo en una agencia de comercio electrónico llamada Punto Commerce, Yo ahi construyo integraciones con NodeJs y PHP, también diseño paginas web con un gran detalle de diseño, testeo y tomo los requerimientos para crear modelos para cada tienda de comercio electrónico,"
 			}
 		}
 	},
 	"playlist" : {
-		"title" : "Mi listas de canciones favoritas"
+		"title" : "Mis listas de musica"
 	},
 	"photos" : {
 		"title" : "Mis fotos"

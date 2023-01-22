@@ -7,7 +7,7 @@ $( document ).ready(function() {
   var outOfChars = 'You have reached the limit of ' + maxChars + ' characters';
   setLanguage();
 
-  
+
 
 
 
@@ -111,7 +111,7 @@ $(function () {
     event.preventDefault();
     $(this).ekkoLightbox({
       alwaysShowClose: true
-      
+
     });
   });
 
@@ -155,7 +155,7 @@ async function sendEmail(){
     "body" : JSON.stringify(data)
   };
 
-  let url = '/contact';	
+  let url = '/contact';
 
 	try{
 		let res = await fetch(url, options);
@@ -237,7 +237,7 @@ function showLoading(flag){
 	else{
 		loader.style.display = 'none';
 	}
-	
+
 }
 
 
@@ -283,7 +283,7 @@ function getLanguage(idLanguage){
 			if (typed) {
 		  	try {
 		  		objectTyped.destroy();
-		  		
+
 		  	} catch(e) {
 		  		console.log(e)
 		  	}
@@ -350,10 +350,10 @@ function getLanguage(idLanguage){
 		    document.getElementById('btnSendMessage').innerHTML = data[idLanguage].contact.form.btnSend;
 
 		    document.getElementById('text-footer').innerHTML = data[idLanguage].footer.text;
-		    
 
 
-		  	
+
+
 			}
 
 
@@ -368,12 +368,11 @@ function changeLanguage(){
 
 	if (idLanguage == 1) {
 		idLanguage = 0;
-		document.getElementById("button-language").innerHTML = "🇲🇽  Español";
-		
+        document.getElementById("button-language").innerHTML = "🇺🇸  English";
 	}
 	else{
-		idLanguage = 1
-		document.getElementById("button-language").innerHTML = "🇺🇸  English";
+		idLanguage = 1;
+        document.getElementById("button-language").innerHTML = "🇲🇽  Español";
 	}
 
 	localStorage.setItem('idLanguage', idLanguage);
