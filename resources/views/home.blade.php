@@ -457,6 +457,20 @@
 
 
           </div>
+
+
+
+          <div class="row">
+
+            <div class="col-md-12">
+
+
+              <div class="tweet-container">
+                <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Hello<br>I’ve waited here for you<br>Everlong <a href="https://twitter.com/hashtag/FooFighters?src=hash&amp;ref_src=twsrc%5Etfw">#FooFighters</a></p>&mdash; Foo_Lyrics (@Foo_Lyrics_) <a href="https://twitter.com/Foo_Lyrics_/status/1613843832898191361?ref_src=twsrc%5Etfw">January 13, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
+            </div>
+
+          </div>
         </div>
       </section>
 
