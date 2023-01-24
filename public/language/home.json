@@ -48,7 +48,7 @@
 				"description"	: "My second job was at Grupo CIMA \nCima Group is a port logistics company, he worked as a Full-Stack developer creating internal modules to streamline the company's logistics processes. \nUse web technologies such as PHP, Javascript (Angular JS), CSS (Sementic UI), and MySQL."
 			},
 			"item4": {
-				"date" : "2019",
+				"date" : "2020 - Present",
 				"title" : "Web Developer Full Stack Middle in Punto Commerce",
 				"description"	: "I currently work in an e-commerce agency called Punto Commerce, where I build integrations with NodeJS and PHP, design web pages with a great design detail, test and raise requirements to create ecommerce modules. The e-commerce CMS that I use are: VTEX.io and Salesforce"
 			}
@@ -98,7 +98,7 @@
 			},
 			"item4": {
 				"title" : "pasatiempos",
-				"text"	: "Escuchar Musica Rock  🎸, Leer, Tomar Cerveza y ver el Atardecer :)"
+				"text"	: "Escuchar Musica de Rock 🎸, Leer, Tomar Cerveza y ver el Atardecer :)"
 			}
 		}
 	},
@@ -112,27 +112,27 @@
 			"item1": {
 				"date" : "2012 - 2017",
 				"title" : "Estudiante del Instituto Tecnologico de Colima",
-				"description"	: "Estudie en el 'Instituto Tecnológico de Colima' cursando la carrera Ingeniería en informática con especialidad en 'Software de Alto Rendimiento'"
+				"description"	: "Estudie en el 'Instituto Tecnológico de Colima' cursando la carrera 'Ingeniería en informática' con especialidad en 'Software de Alto Rendimiento'"
 			},
 			"item2": {
 				"date" : "2018",
 				"title" : "Programador de Software Junior en ColimaSoft",
-				"description"	: "Mi primero trabajo fue como desarrollador de software Junior en la empresa ColimaSoft, desarrollaba aplicaciones móviles, especialmente en PHP y Javascript. \n\n ColimaSoft es una empresa de creación de Software de la Medida."
+				"description"	: "Mi primero empleo fue como desarrollador de software Junior en la empresa ColimaSoft, desarrollaba aplicaciones móviles, y tecnologias web especialmente en PHP y Javascript. \n\n ColimaSoft es una empresa que elabora Software de la Medida."
 			},
 			"item3": {
 				"date" : "2019",
 				"title" : "Programador Web Full-Stack en Grupo CIMA",
-				"description"	: "Mi segundo trabajo fue en Grupo CIMA, \n\n la cual es una empresa de logística portuaria de contenedores, ahi trabaje como desarrollador Full-Stack creando modelos internos para llevar el proceso logístico general de la compañía, Use tecnologías web como PHP, Javascript (Angular JS), CSS (Sementic UI), y MySQL"
+				"description"	: "Mi segundo trabajo fue en Grupo CIMA, \n\n la cual es una empresa de logística portuaria de contenedores, ahi desempeñe el puesto de desarrollador Full-Stack creando modelos internos para llevar el proceso logístico general de la compañía, Use tecnologías web como PHP, Javascript (Angular JS), CSS (Sementic UI), y MySQL"
 			},
 			"item4": {
-				"date" : "2019",
+				"date" : "2020 - Actualmente",
 				"title" : "Programador Web Full-Stack Middle en Punto Commerce",
-				"description"	: "Trabajo en una agencia de comercio electrónico llamada Punto Commerce, Yo ahi construyo integraciones con NodeJs y PHP, también diseño paginas web con un gran detalle de diseño, testeo y tomo los requerimientos para crear modelos para cada tienda de comercio electrónico,"
+				"description"	: "Actualmete trabajo en una agencia de comercio electrónico llamada Punto Commerce, Ahi construyo integraciones con NodeJs y PHP, también diseño paginas web con un gran detalle, testeo y tomo los requerimientos para crear modelos para cada tienda de comercio electrónico."
 			}
 		}
 	},
 	"playlist" : {
-		"title" : "Mis listas de musica"
+		"title" : "Mi listas de musica"
 	},
 	"photos" : {
 		"title" : "Mis fotos"
