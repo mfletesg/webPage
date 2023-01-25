@@ -8,9 +8,6 @@ $( document ).ready(function() {
   setLanguage();
 
 
-
-
-
   /* initalize for when no data is in localStorage */
   var count = maxChars;
   $('#characterCount').text(count + ' characters left');
@@ -115,12 +112,8 @@ $(function () {
     });
   });
 
-  /*$('.filter-container').filterizr({gutterPixels: 3});
-  $('.btn[data-filter]').on('click', function() {
-    $('.btn[data-filter]').removeClass('active');
-    $(this).addClass('active');
-  });*/
 })
+
 
 
 async function sendEmail(){
@@ -350,22 +343,13 @@ function getLanguage(idLanguage){
 		    document.getElementById('btnSendMessage').innerHTML = data[idLanguage].contact.form.btnSend;
 
 		    document.getElementById('text-footer').innerHTML = data[idLanguage].footer.text;
-
-
-
-
 			}
-
-
-
 	  });
 }
 
 
 function changeLanguage(){
-
 	idLanguage = localStorage.getItem('idLanguage');
-
 	if (idLanguage == 1) {
 		idLanguage = 0;
         document.getElementById("button-language").innerHTML = "🇺🇸  English";
@@ -374,11 +358,7 @@ function changeLanguage(){
 		idLanguage = 1;
         document.getElementById("button-language").innerHTML = "🇲🇽  Español";
 	}
-
 	localStorage.setItem('idLanguage', idLanguage);
-
 	getLanguage(idLanguage)
 
 }
-
-	/*showNotificationSuccess();*/
