@@ -25,11 +25,9 @@
               <h1>Miguel Fletes <label class="subTitleInfo">(Mike Fletes)</label></h1>
               <p><span class="typed" id="textAbout" data-typed-items="I ❤️ Open Source, I'm Developer Laravel, I'm Linuxero, I'm Developer Vtex.IO, I'm Developer IONIC, I'm Developer React, I'm Developer Angular"></span></p>
               <div class="social-icons">
-
                 <a class="social-icon social-icon--linkedin" href="https://www.linkedin.com/in/miguel-fletes-garcia-4426b414a/" target="_blank">
                   <i class="fa fa-linkedin"></i>
                 </a>
-
                 <a class="social-icon social-icon--github" href="https://github.com/mfletesg" target="_blank">
                   <i class="fa fa-github"></i>
                 </a>
@@ -467,6 +465,14 @@
 
           <div #swiperRef="" class="swiper mySwiper">
             <div class="swiper-wrapper">
+
+              <div class="swiper-slide swiper-slide-photo">
+                  <a href="img/photo_2023-01-26_20-17-49.jpg?text=23" data-toggle="lightbox" data-title="There is Nothing Left to Lose" data-gallery="gallery">
+                    <img src="img/photo_2023-01-26_20-17-49.jpg?text=23" class="img-fluid img-photo mb-2" alt="black sample"/>
+                  </a>
+              </div>
+
+
               <div class="swiper-slide swiper-slide-photo">
                   <a href="img/photo_2023-01-05_22-48-03.jpg?text=22" data-toggle="lightbox" data-title="View of the horizon under a tree" data-gallery="gallery">
                     <img src="img/photo_2023-01-05_22-48-03.jpg?text=22" class="img-fluid img-photo mb-2" alt="black sample"/>
