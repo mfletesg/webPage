@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route as Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FileXMLController;
+use App\Http\Controllers\ImgConverterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,3 +30,6 @@ Route::resource('contact', ContactController::class);
 
 
 Route::resource('/file', FileXMLController::class);
+
+
+Route::resource('/imgConvert', ImgConverterController::class);

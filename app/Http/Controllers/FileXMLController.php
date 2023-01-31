@@ -38,7 +38,7 @@ class FileXMLController extends Controller
 
     public function store(Request $request)
     {
-        header("Content-type: text/xml"); 
+        header("Content-type: text/xml");
 
         if (!$request->hasFile('fileXML')) {
             return json_encode('bad document');
@@ -72,7 +72,7 @@ class FileXMLController extends Controller
         }
 
 
-        foreach ($planeProducts as $key => $product) {        
+        foreach ($planeProducts as $key => $product) {
             $flagExist = false;
             $flagExit = in_array($product['product-id'], array_column($products, 'product-id'));
             if ($flagExit === false){
@@ -90,7 +90,7 @@ class FileXMLController extends Controller
                                     array_push($paths, $product3['path']);
                                 }
                             }
-                            $viewType = array   (   'view-type' => $product2['view-type'], 
+                            $viewType = array   (   'view-type' => $product2['view-type'],
                                                     'paths' => $paths
                                                 );
                             array_push($viewTypeArray, $viewType);
@@ -106,19 +106,19 @@ class FileXMLController extends Controller
         $title_size = 1;
 
         $xml = "<?xml version='1.0' encoding='utf-8'?><catalog xmlns='http://www.demandware.com/xml/impex/catalog/2006-10-31' catalog-id='storefront-catalog-m-en'><header><image-settings><internal-location base-path='/' /><view-types><view-type>large</view-type><view-type>medium</view-type><view-type>small</view-type><view-type>swatch</view-type></view-types><alt-pattern>".$productName."</alt-pattern><title-pattern>".$productName."</title-pattern></image-settings></header>";
-        
+
         foreach ($products as $r => $product) {
             $xml .="<product product-id='".$product['product-id']."'>";
                 $xml .="<images>";
                 foreach ($product['images'][0] as $key => $images) {
-                    
+
                     $xml .= "<image-group view-type='".$images['view-type']."'>";
                     foreach ($images['paths'] as $s => $path) {
                         $xml .= "<image path='".$path."'/>";
                     }
                     $xml .= "</image-group>";
                 }
-                $xml .="</images>";   
+                $xml .="</images>";
             $xml .="</product>";
         }
         $xml .= "</catalog>";
@@ -132,7 +132,7 @@ class FileXMLController extends Controller
 
         $fileXML = file_put_contents("uploads/file.xml", $xml_pretty);
         $fileResponse= public_path(). "/uploads/file.xml";
-        
+
         return response()->download($fileResponse);
 
     }
@@ -184,7 +184,7 @@ class FileXMLController extends Controller
 
 
     public function oldFile(Request $request){
-        header("Content-type: text/xml"); 
+        header("Content-type: text/xml");
 
         if (!$request->hasFile('fileXML')) {
             return json_encode('bad document');
@@ -218,7 +218,7 @@ class FileXMLController extends Controller
         }
 
 
-        foreach ($planeProducts as $key => $product) {        
+        foreach ($planeProducts as $key => $product) {
             $flagExist = false;
             $flagExit = in_array($product['product-id'], array_column($products, 'product-id'));
             if ($flagExit === false){
@@ -236,7 +236,7 @@ class FileXMLController extends Controller
                                     array_push($paths, $product3['path']);
                                 }
                             }
-                            $viewType = array   (   'view-type' => $product2['view-type'], 
+                            $viewType = array   (   'view-type' => $product2['view-type'],
                                                     'paths' => $paths
                                                 );
                             array_push($viewTypeArray, $viewType);
@@ -252,19 +252,19 @@ class FileXMLController extends Controller
         $title_size = 1;
 
         $xml = "<?xml version='1.0' encoding='utf-8'?><catalog xmlns='http://www.demandware.com/xml/impex/catalog/2006-10-31' catalog-id='storefront-catalog-m-en'><header><image-settings><internal-location base-path='/' /><view-types><view-type>large</view-type><view-type>medium</view-type><view-type>small</view-type><view-type>swatch</view-type></view-types><alt-pattern>".$productName."</alt-pattern><title-pattern>".$productName."</title-pattern></image-settings></header>";
-        
+
         foreach ($products as $r => $product) {
             $xml .="<product product-id='".$product['product-id']."'>";
                 $xml .="<images>";
                 foreach ($product['images'][0] as $key => $images) {
-                    
+
                     $xml .= "<image-group view-type='".$images['view-type']."'>";
                     foreach ($images['paths'] as $s => $path) {
                         $xml .= "<image path='".$path."'/>";
                     }
                     $xml .= "</image-group>";
                 }
-                $xml .="</images>";   
+                $xml .="</images>";
             $xml .="</product>";
         }
         $xml .= "</catalog>";
@@ -278,7 +278,7 @@ class FileXMLController extends Controller
 
         $fileXML = file_put_contents("uploads/file.xml", $xml_pretty);
         $fileResponse= public_path(). "/uploads/file.xml";
-        
+
         return response()->download($fileResponse);
     }
 }
