@@ -104,7 +104,7 @@
 	},
 	"skills" : {
 		"title" : "Habilidades",
-		"description" : "Mis habilidades se basan como Desarrollador de aplicaciones mobiles y webs, diseño dibujos vectoriales y programo fondos para relojes inteligentes."
+		"description" : "Mis habilidades se basan en un Desarrollador de aplicaciones móviles y desarrollo web FrontEnd y BackEnd, diseño dibujos vectoriales y programo fondos para relojes inteligentes."
 	},
 	"experience" : {
 		"title" : "Experiencia",
@@ -117,17 +117,17 @@
 			"item2": {
 				"date" : "2018",
 				"title" : "Programador de Software Junior en ColimaSoft",
-				"description"	: "Mi primero empleo fue como desarrollador de software Junior en la empresa ColimaSoft, desarrollaba aplicaciones móviles, y tecnologias web especialmente en PHP y Javascript. \n\n ColimaSoft es una empresa que elabora Software de la Medida."
+				"description"	: "Mi primero empleo fue como desarrollador de software Junior en la empresa ColimaSoft, desarrollaba aplicaciones móviles, y tecnologías web especialmente en PHP y JavaScript. ColimaSoft es una empresa que elabora Software de la Medida."
 			},
 			"item3": {
 				"date" : "2019",
 				"title" : "Programador Web Full-Stack en Grupo CIMA",
-				"description"	: "Mi segundo trabajo fue en Grupo CIMA, \n\n la cual es una empresa de logística portuaria de contenedores, ahi desempeñe el puesto de desarrollador Full-Stack creando modelos internos para llevar el proceso logístico general de la compañía, Use tecnologías web como PHP, Javascript (Angular JS), CSS (Sementic UI), y MySQL"
+				"description"	: "Mi segundo trabajo fue en Grupo CIMA, la cual es una empresa de logística portuaria de contenedores, ahí desempeñe el puesto de desarrollador Full-Stack creando modelos internos para llevar el proceso logístico general de la compañía, Use tecnologías web como PHP, JavaScript (Angular JS), CSS (Sementic UI), y MySQL"
 			},
 			"item4": {
 				"date" : "2020 - Actualmente",
 				"title" : "Programador Web Full-Stack Middle en Punto Commerce",
-				"description"	: "Actualmete trabajo en una agencia de comercio electrónico llamada Punto Commerce, Ahi construyo integraciones con NodeJs y PHP, también diseño paginas web con un gran detalle, testeo y tomo los requerimientos para crear modelos para cada tienda de comercio electrónico."
+				"description"	: "Actualmente trabajo en una agencia de comercio electrónico llamada Punto Commerce, Ahí construyo integraciones con NodeJs y PHP, también diseño páginas web con un gran detalle, testeo y tomo los requerimientos para crear modelos para cada tienda de comercio electrónico."
 			}
 		}
 	},

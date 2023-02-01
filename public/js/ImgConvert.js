@@ -8,6 +8,11 @@ async function convertIMG() {
     }
 
     var formData = new FormData();
+
+    if(file.length == 0){
+        return false
+    }
+
     formData.append("fileIMG", file[0]);
 
     const url = `/imgConvert`;
