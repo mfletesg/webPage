@@ -544,6 +544,31 @@
                 <div #swiperRef="" class="swiper mySwiper">
                     <div class="swiper-wrapper">
 
+
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-02-18_15-14-14.jpg?text=26" data-toggle="lightbox"
+                                data-title="Code and Sunset" data-gallery="gallery">
+                                <img src="img/photo_2023-02-18_15-14-14.jpg?text=26" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-02-18_15-02-22.jpg?text=25" data-toggle="lightbox"
+                                data-title="Colima Beer" data-gallery="gallery">
+                                <img src="img/photo_2023-02-18_15-02-22.jpg?text=25" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-02-18_15-00-53.jpg?text=24" data-toggle="lightbox"
+                                data-title="Blue Sea" data-gallery="gallery">
+                                <img src="img/photo_2023-02-18_15-00-53.jpg?text=24" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
+
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-01-26_20-17-49.jpg?text=23" data-toggle="lightbox"
                                 data-title="There is Nothing Left to Lose" data-gallery="gallery">
