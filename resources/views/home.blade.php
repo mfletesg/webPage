@@ -848,7 +848,7 @@
         </div>
         <!-- /.content-wrapper -->
         <footer class="main-footer">
-            <p class="text-footer" id="text-footer">Make with 🎸, 🍺, ☕ and Open Source</p>
+            <p class="text-footer" id="text-footer">Make with 🎸, 🍺, ☕ by Mike Fletes</p>
         </footer>
         <!-- Control Sidebar -->
         <aside class="control-sidebar control-sidebar-dark">
