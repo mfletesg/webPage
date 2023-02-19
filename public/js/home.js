@@ -263,7 +263,7 @@ function setLanguage() {
 
 function getLanguage(idLanguage) {
     console.log(idLanguage)
-    fetch('/language/home.json')
+    fetch('/language/home.json?1.0.3')
         .then(response => response.json())
         .then(data => {
 

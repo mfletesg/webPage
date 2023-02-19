@@ -544,26 +544,25 @@
                 <div #swiperRef="" class="swiper mySwiper">
                     <div class="swiper-wrapper">
 
-
                         <div class="swiper-slide swiper-slide-photo">
-                            <a href="img/photo_2023-02-18_15-14-14.jpg?text=26" data-toggle="lightbox"
-                                data-title="Code and Sunset" data-gallery="gallery">
-                                <img src="img/photo_2023-02-18_15-14-14.jpg?text=26" class="img-fluid img-photo mb-2"
+                            <a href="img/photo_2023-02-18_15-02-22.jpg?text=26" data-toggle="lightbox"
+                                data-title="Colimita 🍺" data-gallery="gallery">
+                                <img src="img/photo_2023-02-18_15-02-22.jpg?text=26" class="img-fluid img-photo mb-2"
                                     alt="black sample" />
                             </a>
                         </div>
 
                         <div class="swiper-slide swiper-slide-photo">
-                            <a href="img/photo_2023-02-18_15-02-22.jpg?text=25" data-toggle="lightbox"
-                                data-title="Colima Beer" data-gallery="gallery">
-                                <img src="img/photo_2023-02-18_15-02-22.jpg?text=25" class="img-fluid img-photo mb-2"
+                            <a href="img/photo_2023-02-18_15-14-14.jpg?text=25" data-toggle="lightbox"
+                                data-title="Code and Sunset" data-gallery="gallery">
+                                <img src="img/photo_2023-02-18_15-14-14.jpg?text=25" class="img-fluid img-photo mb-2"
                                     alt="black sample" />
                             </a>
                         </div>
 
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-02-18_15-00-53.jpg?text=24" data-toggle="lightbox"
-                                data-title="Blue Sea" data-gallery="gallery">
+                                data-title="Blue Sea 🌊" data-gallery="gallery">
                                 <img src="img/photo_2023-02-18_15-00-53.jpg?text=24" class="img-fluid img-photo mb-2"
                                     alt="black sample" />
                             </a>
@@ -605,7 +604,7 @@
                         </div>
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2022-10-02_20-28-46.jpg?text=13" data-toggle="lightbox"
-                                data-title="Foo Fighters" data-gallery="gallery">
+                                data-title="Favorite Record Foo Fighters" data-gallery="gallery">
                                 <img src="img/photo_2022-10-02_20-28-46.jpg?text=13" class="img-fluid img-photo mb-2"
                                     alt="black sample" />
                             </a>
@@ -848,7 +847,7 @@
         </div>
         <!-- /.content-wrapper -->
         <footer class="main-footer">
-            <p class="text-footer" id="text-footer">Make with 🎸, 🍺, ☕ by Mike Fletes</p>
+            <p class="text-footer" id="text-footer">Make with 🎸, 🍺, ☕ by Miguel Fletes</p>
         </footer>
         <!-- Control Sidebar -->
         <aside class="control-sidebar control-sidebar-dark">

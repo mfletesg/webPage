@@ -641,6 +641,8 @@ body::-webkit-scrollbar {
     background-color: #010B2B;
     margin-top: 0px;
     border: none;
+    z-index: 5;
+    position: relative;
 }
 
 
@@ -1164,10 +1166,12 @@ body::-webkit-scrollbar {
 .button-language{
     width: 130px;
     position: fixed;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-bottom: 27px;
+    margin-right: 27px;
     z-index: 4;
     background-color: rgba(11, 11, 116, 0.35) !important;
+    right:    0;
+    bottom:   0;
 }
 
 .text-language-btn{
