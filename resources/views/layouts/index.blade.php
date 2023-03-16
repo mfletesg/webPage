@@ -17,19 +17,16 @@
 		<!-- Google Font: Source Sans Pro -->
 	  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
 	  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-	  <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
-	  <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
-
-
-  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
 	  @if($name =='127.0.0.1')
 
+        <link rel="stylesheet" href="{{asset('css/swiper-bundle.min.css')}}">
         <link rel="stylesheet" href="{{asset('css/home3.css')}}">
         <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
         <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
         <link rel="stylesheet" href="{{asset('css/home.css?v=1.0.4')}}">
         <link rel="stylesheet" href="{{asset('plugins/ekko-lightbox/ekko-lightbox.css')}}" >
+
         <script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
         <script src="{{asset('plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
         <script src="{{asset('plugins/bs-custom-file-input/bs-custom-file-input.min.js')}}"></script>
@@ -41,11 +38,11 @@
         <script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}" type="text/javascript"></script>
         <script src="{{asset('js/TaTaNotification/tata.js')}}"></script>
         <script src="{{asset('plugins/ekko-lightbox/ekko-lightbox.min.js')}}"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
         <script src="{{asset('js/home.js')}}" type="text/javascript"></script>
 
 
 	  @else
+        <link rel="stylesheet" href="{{secure_asset('css/swiper-bundle.min.css')}}">
 	    <link rel="stylesheet" href="{{secure_asset('plugins/fontawesome-free/css/all.min.css')}}">
 	  	<link rel="stylesheet" href="{{secure_asset('dist/css/adminlte.min.css')}}">
 	  	<link rel="stylesheet" href="{{secure_asset('css/home.css?v=1.0.4')}}">
@@ -69,7 +66,6 @@
 
 		<script src="https://kit.fontawesome.com/9b26a92da5.js" crossorigin="anonymous"></script>
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-W8TXJNX4ZG"></script>
 		<script>

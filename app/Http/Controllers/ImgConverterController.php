@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 
 class ImgConverterController extends Controller
 {
@@ -35,8 +36,9 @@ class ImgConverterController extends Controller
     public function store(Request $request)
     {
 
-        $image = $request->file('fileIMG');
-        $imageData = base64_encode(file_get_contents($image));
+        $imageRequest = $request->file('fileIMG');
+        $fileName = $request->file('fileIMG')->getClientOriginalName();
+        $imageData = base64_encode(file_get_contents($imageRequest));
 
         $image = imagecreatefromstring(base64_decode($imageData));
         imagewebp($image, public_path('img/image.webp'));
@@ -45,9 +47,16 @@ class ImgConverterController extends Controller
         $shift = 3;
         $cipheredText = $this->caesarCipher($imageData, $shift);
 
+        $filename = pathinfo($fileName, PATHINFO_FILENAME);
+
+        //Storage::disk('local')->put('file212.txt', '122');
+
+        File::put('img/photos/'.$filename.'.txt',$cipheredText);
+
+        error_log('Hola Mundo');
 
 
-        $response = array('message' => $cipheredText);
+        $response = array('message' => $cipheredText, 'img' => $filename);
         return json_encode($response);
     }
 

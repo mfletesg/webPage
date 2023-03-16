@@ -28,6 +28,7 @@ async function convertIMG() {
     try {
         let res = await fetch(url, config)
         response = await res.json()
+        console.log(response);
 
         const cipheredText = response.message;
         const shift = 3;

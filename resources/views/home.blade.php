@@ -544,6 +544,15 @@
                 <div #swiperRef="" class="swiper mySwiper">
                     <div class="swiper-wrapper">
 
+
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-03-16_01-54-18.jpg?text=27" data-toggle="lightbox"
+                                data-title="Bike" data-gallery="gallery">
+                                <img src="img/photo_2023-03-16_01-54-18.jpg?text=27" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
+
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-02-18_15-02-22.jpg?text=26" data-toggle="lightbox"
                                 data-title="Colimita 🍺" data-gallery="gallery">
