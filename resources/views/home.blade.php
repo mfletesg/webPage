@@ -545,10 +545,27 @@
                     <div class="swiper-wrapper">
 
 
+
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-03-24_23-53-36.jpg?text=29" data-toggle="lightbox"
+                                data-title="Take a Picture" data-gallery="gallery">
+                                <img src="img/photo_2023-03-24_23-53-36.jpg?text=29" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
+
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-03-16_01-54-18.jpg?text=27" data-toggle="lightbox"
                                 data-title="Bike" data-gallery="gallery">
                                 <img src="img/photo_2023-03-16_01-54-18.jpg?text=27" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-10-02_20-49-25.jpeg?text=28" data-toggle="lightbox"
+                                data-title="Mike Fletes" data-gallery="gallery">
+                                <img src="img/photo_2023-10-02_20-49-25.jpeg?text=28" class="img-fluid img-photo mb-2"
                                     alt="black sample" />
                             </a>
                         </div>
@@ -560,6 +577,8 @@
                                     alt="black sample" />
                             </a>
                         </div>
+
+                        
 
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-02-18_15-14-14.jpg?text=25" data-toggle="lightbox"

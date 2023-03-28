@@ -24,7 +24,7 @@
         <link rel="stylesheet" href="{{asset('css/home3.css')}}">
         <link rel="stylesheet" href="{{asset('plugins/fontawesome-free/css/all.min.css')}}">
         <link rel="stylesheet" href="{{asset('dist/css/adminlte.min.css')}}">
-        <link rel="stylesheet" href="{{asset('css/home.css?v=1.0.4')}}">
+        <link rel="stylesheet" href="{{asset('css/home.css?v=1.0.5')}}">
         <link rel="stylesheet" href="{{asset('plugins/ekko-lightbox/ekko-lightbox.css')}}" >
 
         <script src="{{asset('plugins/jquery/jquery.min.js')}}"></script>
@@ -45,7 +45,7 @@
         <link rel="stylesheet" href="{{secure_asset('css/swiper-bundle.min.css')}}">
 	    <link rel="stylesheet" href="{{secure_asset('plugins/fontawesome-free/css/all.min.css')}}">
 	  	<link rel="stylesheet" href="{{secure_asset('dist/css/adminlte.min.css')}}">
-	  	<link rel="stylesheet" href="{{secure_asset('css/home.css?v=1.0.4')}}">
+	  	<link rel="stylesheet" href="{{secure_asset('css/home.css?v=1.0.5')}}">
 	  	<link rel="stylesheet" href="{{secure_asset('plugins/ekko-lightbox/ekko-lightbox.css')}}" >
 
 	  	<script src="{{secure_asset('plugins/jquery/jquery.min.js')}}"></script>
@@ -59,8 +59,8 @@
         <script src="{{secure_asset('assets/vendor/waypoints/noframework.waypoints.js') }}"></script>
         <script src="{{secure_asset('js/TaTaNotification/tata.js')}}"></script>
         <script src="{{secure_asset('plugins/ekko-lightbox/ekko-lightbox.min.js')}}"></script>
-        <script src="{{secure_asset('js/home.js?version=1.0.4')}}" type="text/javascript"></script>
-        <script src="{{secure_asset('js/s.js?version=1.0.4')}}" type="text/javascript"></script>
+        <script src="{{secure_asset('js/home.js?version=1.0.5')}}" type="text/javascript"></script>
+        <script src="{{secure_asset('js/s.js?version=1.0.5')}}" type="text/javascript"></script>
 	@endif
 
 
