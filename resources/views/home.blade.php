@@ -543,8 +543,20 @@
 
                 <div #swiperRef="" class="swiper mySwiper">
                     <div class="swiper-wrapper">
-
-
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-04-06_07-30-29.jpg?text=31" data-toggle="lightbox"
+                                data-title="Cerveza en la Costa" data-gallery="gallery">
+                                <img src="img/photo_2023-04-06_07-30-29.jpg?text=31" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-04-06_07-23-40.jpg?text=30" data-toggle="lightbox"
+                                data-title="Villa de Alvarez, Colima" data-gallery="gallery">
+                                <img src="img/photo_2023-04-06_07-23-40.jpg?text=30" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
 
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-03-24_23-53-36.jpg?text=29" data-toggle="lightbox"
@@ -554,21 +566,7 @@
                             </a>
                         </div>
 
-                        <div class="swiper-slide swiper-slide-photo">
-                            <a href="img/photo_2023-03-16_01-54-18.jpg?text=27" data-toggle="lightbox"
-                                data-title="Bike" data-gallery="gallery">
-                                <img src="img/photo_2023-03-16_01-54-18.jpg?text=27" class="img-fluid img-photo mb-2"
-                                    alt="black sample" />
-                            </a>
-                        </div>
 
-                        <div class="swiper-slide swiper-slide-photo">
-                            <a href="img/photo_2023-10-02_20-49-25.jpeg?text=28" data-toggle="lightbox"
-                                data-title="Mike Fletes" data-gallery="gallery">
-                                <img src="img/photo_2023-10-02_20-49-25.jpeg?text=28" class="img-fluid img-photo mb-2"
-                                    alt="black sample" />
-                            </a>
-                        </div>
 
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-02-18_15-02-22.jpg?text=26" data-toggle="lightbox"
@@ -584,6 +582,15 @@
                             <a href="img/photo_2023-02-18_15-14-14.jpg?text=25" data-toggle="lightbox"
                                 data-title="Code and Sunset" data-gallery="gallery">
                                 <img src="img/photo_2023-02-18_15-14-14.jpg?text=25" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
+
+
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-03-16_01-54-18.jpg?text=27" data-toggle="lightbox"
+                                data-title="Bike" data-gallery="gallery">
+                                <img src="img/photo_2023-03-16_01-54-18.jpg?text=27" class="img-fluid img-photo mb-2"
                                     alt="black sample" />
                             </a>
                         </div>
