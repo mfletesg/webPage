@@ -544,6 +544,27 @@
                 <div #swiperRef="" class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-04-14_21-34-36.jpg?text=35" data-toggle="lightbox"
+                                data-title="Driving in the CDMX" data-gallery="gallery">
+                                <img src="img/photo_2023-04-14_21-34-36.jpg?text=35" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-04-14_21-42-06.jpg?text=33" data-toggle="lightbox"
+                                data-title="Backpack Punto Commerce" data-gallery="gallery">
+                                <img src="img/photo_2023-04-14_21-42-06.jpg?text=33" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-04-11_14-26-31.jpg?text=34" data-toggle="lightbox"
+                                data-title="Bigotes in Home" data-gallery="gallery">
+                                <img src="img/photo_2023-04-11_14-26-31.jpg?text=34" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-04-13_14-39-24.jpg?text=32" data-toggle="lightbox"
                                 data-title="Cuautla Morelos Sunset" data-gallery="gallery">
                                 <img src="img/photo_2023-04-13_14-39-24.jpg?text=32" class="img-fluid img-photo mb-2"
