@@ -544,15 +544,22 @@
                 <div #swiperRef="" class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-04-13_14-39-24.jpg?text=32" data-toggle="lightbox"
+                                data-title="Cuautla Morelos Sunset" data-gallery="gallery">
+                                <img src="img/photo_2023-04-13_14-39-24.jpg?text=32" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-04-06_07-30-29.jpg?text=31" data-toggle="lightbox"
-                                data-title="Cerveza en la Costa" data-gallery="gallery">
+                                data-title="Cerveza y playa" data-gallery="gallery">
                                 <img src="img/photo_2023-04-06_07-30-29.jpg?text=31" class="img-fluid img-photo mb-2"
                                     alt="black sample" />
                             </a>
                         </div>
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-04-06_07-23-40.jpg?text=30" data-toggle="lightbox"
-                                data-title="Villa de Alvarez, Colima" data-gallery="gallery">
+                                data-title="Villa de Alvarez" data-gallery="gallery">
                                 <img src="img/photo_2023-04-06_07-23-40.jpg?text=30" class="img-fluid img-photo mb-2"
                                     alt="black sample" />
                             </a>
