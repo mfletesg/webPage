@@ -298,6 +298,36 @@
                 </div>
             </section>
 
+
+            <section id="awards" class="content awards content-awards section-bg">
+                <div class="section-title">
+                    <h2 class="skills-title" id="awards-title">Awards and Honours</h2>
+                    <br>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                                <div class="swiper-slide swiper-slide-photo">
+                                    <a href="img/20230430_212526.png?text=35" data-toggle="lightbox"
+                                        data-title="Driving in the CDMX" data-gallery="gallery">
+                                        <img src="img/20230430_212526.png?text=35" class="img-fluid img-photo mb-2"
+                                            alt="black sample" />
+                                    </a>
+                                </div>
+                          </div>
+                          <div class="swiper-slide">Slide 2</div>
+                          <div class="swiper-slide">Slide 3</div>
+                          <div class="swiper-slide">Slide 4</div>
+                          <div class="swiper-slide">Slide 5</div>
+                          <div class="swiper-slide">Slide 6</div>
+                          <div class="swiper-slide">Slide 7</div>
+                          <div class="swiper-slide">Slide 8</div>
+                          <div class="swiper-slide">Slide 9</div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div> 
+                </div>
+            </section>
+
             <section id="experience" class="content experience content-experience section-bg">
                 <div class="section-title">
                     <h2 class="skills-title" id="experience-title">Experience</h2>
@@ -378,7 +408,7 @@
                                 </div>
                                 <div class="timeline-profile">
                                     <span class="timeline-icon"></span>
-                                    <span class="year" id="item4Year">2020 - Present</span>
+                                    <span class="year" id="item4Year">2020 - 2023</span>
                                     <div class="timeline-content">
                                         <h3 class="title" id="item4Title">Web Developer Full Stack Middle in Punto
                                             Commerce</h3>
@@ -396,6 +426,30 @@
                                         <div class="container-webpage-timeline">
                                             <a class="webpage-link" href="https://puntocommerce.com" target="_blank">
                                                 https://puntocommerce.com
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-profile">
+                                    <span class="timeline-icon"></span>
+                                    <span class="year" id="item5Year">2023 - Present</span>
+                                    <div class="timeline-content">
+                                        <h3 class="title" id="item5Title">Web Developer Full Stack Middle in CloudAppi</h3>
+                                        <p class="description" id="item5Description">
+                                            I currently work in an e-commerce agency called Punto Commerce, where I
+                                            build integrations with NodeJS, design web pages, test and raise
+                                            requirements to create ecommerce modules.
+                                        </p>
+
+                                        <div class="container-img-timeline">
+                                            <img src="img/logo_cloudappi_450_150.webp"
+                                                class="img-timeline img-timeline-pc">
+                                        </div>
+
+                                        <div class="container-webpage-timeline">
+                                            <a class="webpage-link" href="https://cloudappi.net" target="_blank">
+                                                https://cloudappi.net
                                             </a>
                                         </div>
                                     </div>

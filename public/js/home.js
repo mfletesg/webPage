@@ -327,6 +327,11 @@ function getLanguage(idLanguage) {
                 document.getElementById('item4Description').innerHTML = data[idLanguage].experience.timeLine.item4.description;
 
 
+                document.getElementById('item5Year').innerHTML = data[idLanguage].experience.timeLine.item5.date;
+                document.getElementById('item5Title').innerHTML = data[idLanguage].experience.timeLine.item5.title;
+                document.getElementById('item5Description').innerHTML = data[idLanguage].experience.timeLine.item5.description;
+
+
                 document.getElementById('title-playlist').innerHTML = data[idLanguage].playlist.title;
                 document.getElementById('title-photos').innerHTML = data[idLanguage].photos.title
 

@@ -37,6 +37,9 @@ class ImgConverterController extends Controller
     {
 
         $imageRequest = $request->file('fileIMG');
+
+        printf($request->file('fileIMG'));
+        die;
         $fileName = $request->file('fileIMG')->getClientOriginalName();
         $imageData = base64_encode(file_get_contents($imageRequest));
 

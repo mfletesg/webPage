@@ -48,9 +48,14 @@
 				"description"	: "My second job was at Grupo CIMA \nCima Group is a port logistics company, he worked as a Full-Stack developer creating internal modules to streamline the company's logistics processes. \nUse web technologies such as PHP, Javascript (Angular JS), CSS (Sementic UI), and MySQL."
 			},
 			"item4": {
-				"date" : "2020 - Present",
+				"date" : "2020 - 2023",
 				"title" : "Web Developer Full Stack Middle in Punto Commerce",
-				"description"	: "I currently work in an e-commerce agency called Punto Commerce, where I build integrations with NodeJS and PHP, design web pages with a great design detail, test and raise requirements to create ecommerce modules. The e-commerce CMS that I use are: VTEX.io and Salesforce"
+				"description"	: "I worked at an e-commerce agency called Punto Commerce, there I build integrations with NodeJs and PHP, I also design web pages in great detail, I test and take the requirements to create models for each e-commerce store. The e-commerce CMS that I use are: VTEX.io and Salesforce"
+			},
+			"item5": {
+				"date" : "2023 - Present",
+				"title" : "Web Developer Full Stack Middle in CloudAppi",
+				"description"	: "I'm a Full-Stak developer at CloudAppi, which is a consultancy and development of APIs within cloud environments."
 			}
 		}
 	},
@@ -125,9 +130,14 @@
 				"description"	: "Mi segundo trabajo fue en Grupo CIMA, la cual es una empresa de logística portuaria de contenedores, ahí desempeñe el puesto de desarrollador Full-Stack creando modelos internos para llevar el proceso logístico general de la compañía, Use tecnologías web como PHP, JavaScript (Angular JS), CSS (Sementic UI), y MySQL"
 			},
 			"item4": {
-				"date" : "2020 - Actualmente",
+				"date" : "2020 - 2023",
 				"title" : "Programador Web Full-Stack Middle en Punto Commerce",
-				"description"	: "Actualmente trabajo en una agencia de comercio electrónico llamada Punto Commerce, Ahí construyo integraciones con NodeJs y PHP, también diseño páginas web con un gran detalle, testeo y tomo los requerimientos para crear modelos para cada tienda de comercio electrónico."
+				"description"	: "Labore en una agencia de comercio electrónico llamada Punto Commerce, Ahí construyo integraciones con NodeJs y PHP, también diseño páginas web con un gran detalle, testeo y tomo los requerimientos para crear modelos para cada tienda de comercio electrónico."
+			},
+			"item5": {
+				"date" : "2023 - Actualmente",
+				"title" : "Programador Web Full-Stack Middle en CloudAppi",
+				"description"	: "Yo soy desarrollador Full-Stak en cloudAppi, el cual es una consultoría y desarrollo de APIs dentro de entornos en la nube"
 			}
 		}
 	},
