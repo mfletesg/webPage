@@ -119,7 +119,7 @@
                 </div><!-- /.container-fluid -->
             </section>
 
-            <section id="skills" class="content  skills section-bg">
+            <section id="skills" class="content  skills section-bg content-skills">
                 <div class="container container-skills">
                     <div class="section-title">
                         <h2 class="skills-title" id="skills-title">Skills</h2>
@@ -299,38 +299,86 @@
             </section>
 
 
+            <section id="experience" class="content  content-svg1 section-bg"></section>
+
+
+
             <section id="awards" class="content awards content-awards section-bg">
                 <div class="section-title">
-                    <h2 class="skills-title" id="awards-title">Awards and Honours</h2>
+                    <h2 class="awards-title" id="awards-title">Awards and Honours</h2>
                     <br>
-                    <div class="swiper mySwiper">
+                    <div class="swiper mySwiper swiper-awards">
                         <div class="swiper-wrapper">
                           <div class="swiper-slide">
-                                <div class="swiper-slide swiper-slide-photo">
-                                    <a href="img/20230430_212526.png?text=35" data-toggle="lightbox"
-                                        data-title="Driving in the CDMX" data-gallery="gallery">
-                                        <img src="img/20230430_212526.png?text=35" class="img-fluid img-photo mb-2"
-                                            alt="black sample" />
-                                    </a>
-                                </div>
+                            <div class="swiper-slide swiper-slide-photo">
+                                <a href="img/20230430_212526.png?text=1" data-toggle="lightbox"
+                                    data-title="Driving in the CDMX" data-gallery="gallery">
+                                    <img src="img/20230430_212526.png?text=1" class="img-fluid img-photo mb-2"
+                                        alt="black sample" />
+                                </a>
+                            </div>
                           </div>
-                          <div class="swiper-slide">Slide 2</div>
-                          <div class="swiper-slide">Slide 3</div>
-                          <div class="swiper-slide">Slide 4</div>
-                          <div class="swiper-slide">Slide 5</div>
-                          <div class="swiper-slide">Slide 6</div>
-                          <div class="swiper-slide">Slide 7</div>
-                          <div class="swiper-slide">Slide 8</div>
-                          <div class="swiper-slide">Slide 9</div>
+                          <div class="swiper-slide">
+                            <div class="swiper-slide swiper-slide-photo">
+                              <a href="img/img20230512_17202109.png?text=2" data-toggle="lightbox"
+                                  data-title="Driving in the CDMX" data-gallery="gallery">
+                                  <img src="img/img20230512_17202109.png?text=2" class="img-fluid img-photo mb-2"
+                                      alt="black sample" />
+                              </a>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <div class="swiper-slide swiper-slide-photo">
+                                <a href="img/img20230512_17360470.webp?text=3" data-toggle="lightbox"
+                                    data-title="Driving in the CDMX" data-gallery="gallery">
+                                    <img src="img/img20230512_17360470.webp?text=3" class="img-fluid img-photo mb-2"
+                                        alt="black sample" />
+                                </a>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="swiper-slide swiper-slide-photo">
+                                <a href="img/img20230512_17284736.webp?text=3" data-toggle="lightbox"
+                                    data-title="Driving in the CDMX" data-gallery="gallery">
+                                    <img src="img/img20230512_17284736.webp?text=3" class="img-fluid img-photo mb-2"
+                                        alt="black sample" />
+                                </a>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="swiper-slide swiper-slide-photo">
+                                <a href="img/img20230512_17423574.webp?text=3" data-toggle="lightbox"
+                                    data-title="Driving in the CDMX" data-gallery="gallery">
+                                    <img src="img/img20230512_17423574.webp?text=3" class="img-fluid img-photo mb-2"
+                                        alt="black sample" />
+                                </a>
+                            </div>
+                          </div>
+
+                          <div class="swiper-slide">
+                            <div class="swiper-slide swiper-slide-photo">
+                                <a href="img/img20230512_17500038.webp?text=3" data-toggle="lightbox"
+                                    data-title="Driving in the CDMX" data-gallery="gallery">
+                                    <img src="img/img20230512_17500038.webp?text=3" class="img-fluid img-photo mb-2"
+                                        alt="black sample" />
+                                </a>
+                            </div>
+                          </div>
                         </div>
                         <div class="swiper-pagination"></div>
                     </div> 
                 </div>
             </section>
 
+
+            
+
+
+
             <section id="experience" class="content experience content-experience section-bg">
                 <div class="section-title">
-                    <h2 class="skills-title" id="experience-title">Experience</h2>
+                    <h2 class="experience-title" id="experience-title">Experience</h2>
                     <br>
                 </div>
                 <div class="container">
@@ -431,7 +479,7 @@
                                     </div>
                                 </div>
 
-                                <div class="timeline-profile">
+                                <div class="timeline-profile timeline-profile5">
                                     <span class="timeline-icon"></span>
                                     <span class="year" id="item5Year">2023 - Present</span>
                                     <div class="timeline-content">
@@ -454,6 +502,8 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                
                             </div>
                         </div>
                     </div>
@@ -597,6 +647,14 @@
 
                 <div #swiperRef="" class="swiper mySwiper">
                     <div class="swiper-wrapper">
+
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-05-11_21-18-24.jpg?text=36" data-toggle="lightbox"
+                                data-title="Miguel Fletes" data-gallery="gallery">
+                                <img src="img/photo_2023-05-11_21-18-24.jpg?text=36" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-04-14_21-34-36.jpg?text=35" data-toggle="lightbox"
                                 data-title="Driving in the CDMX" data-gallery="gallery">
@@ -606,7 +664,7 @@
                         </div>
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-04-14_21-42-06.jpg?text=33" data-toggle="lightbox"
-                                data-title="Backpack Punto Commerce" data-gallery="gallery">
+                                data-title="Punto Commerce Backpack" data-gallery="gallery">
                                 <img src="img/photo_2023-04-14_21-42-06.jpg?text=33" class="img-fluid img-photo mb-2"
                                     alt="black sample" />
                             </a>
