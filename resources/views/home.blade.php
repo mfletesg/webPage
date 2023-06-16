@@ -86,31 +86,66 @@
                                     </div>
                                 </div>
                                 <div id="screen">
-                                    <p class="command" id="terminalTitle1"><b>about<b></p>
+
+                                    <div class="command-title">
+                                        <p class="command-title-text">miguel</p>
+                                        <p class="command-git-text"><b>(master)</b></p>
+                                        <p class="command-arrow"><b>⇒</b></p>
+                                        <p class="command-subtitle-text" id="terminalTitle1"><b>about</b></p>
+                                    </div>
                                     <p class="response" id="terminalText1"><b>Web Developer Full Stack</b> graduated
                                         from Instituto Tecnológicode Colima as a Computer Engineer specializing in
                                         <b>"High Performance Software"</b>, passionate about Open Source technologies.
                                     </p>
 
-                                    <p class="command" id="terminalTitle2"><b>city<b></p>
+
+                                    <div class="command-title">
+                                        <p class="command-title-text">miguel</p>
+                                        <p class="command-git-text"><b>(master)</b></p>
+                                        <p class="command-arrow"><b>⇒</b></p>
+                                        <p class="command-subtitle-text" id="terminalTitle2"><b>city</b></p>
+                                    </div>
                                     <p class="response array">
                                         <label class="array-element">📍Villa de Alvarez, Colima, Mexico</label>
                                     </p>
 
-                                    <p class="command" id="terminalTitle3"><b>age<b></p>
+                                    <div class="command-title">
+                                        <p class="command-title-text">miguel</p>
+                                        <p class="command-git-text"><b>(master)</b></p>
+                                        <p class="command-arrow"><b>⇒</b></p>
+                                        <p class="command-subtitle-text" id="terminalTitle3"><b>age</b></p>
+                                    </div>
                                     <p class="response" id="terminalText3"><b>28 years</p>
 
-                                    <p class="command" id="terminalTitle4">hobbies</p>
+
+                                    <div class="command-title">
+                                        <p class="command-title-text">miguel</p>
+                                        <p class="command-git-text"><b>(master)</b></p>
+                                        <p class="command-arrow"><b>⇒</b></p>
+                                        <p class="command-subtitle-text" id="terminalTitle4"><b>hobbies</b></p>
+                                    </div>
                                     <p class="response" id="terminalText4"><b>Listen Rock Music 🎸, Read, Drink Beer and
                                             Watch the Sunset :)</p>
-                                    <p class="command">github</p>
-                                    <p class="response ">
+
+                                    <div class="command-title">
+                                        <p class="command-title-text">miguel</p>
+                                        <p class="command-git-text"><b>(master)</b></p>
+                                        <p class="command-arrow"><b>⇒</b></p>
+                                        <p class="command-subtitle-text"><b>github</b></p>
+                                    </div>
+                                    <p class="response">
                                         <a class="array-element" href="https://github.com/mfletesg"
                                             target="_blank">https://github.com/mfletesg</a>
                                     </p>
-                                    <p class="command">
-                                        <span class="cursor">&nbsp</span>
-                                    </p>
+
+
+
+                                    <div class="command-title">
+                                        <p class="command-title-text">miguel</p>
+                                        <p class="command-git-text"><b>(master)</b></p>
+                                        <p class="command-arrow"><b>⇒</b></p>
+                                        <span class="cursor">&nbsp </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -312,7 +347,7 @@
                           <div class="swiper-slide">
                             <div class="swiper-slide swiper-slide-photo">
                                 <a href="img/20230430_212526.png?text=1" data-toggle="lightbox"
-                                    data-title="Driving in the CDMX" data-gallery="gallery">
+                                    data-title="NodeJS Senior" data-gallery="gallery">
                                     <img src="img/20230430_212526.png?text=1" class="img-fluid img-photo mb-2"
                                         alt="black sample" />
                                 </a>
@@ -511,81 +546,6 @@
             </section>
 
 
-
-            <!--<section id="projects" class="content projects content-projects section-bg">
-
-          <div class="container container-skills">
-            <div class="section-title">
-              <h2 class="skills-title">Some projects</h2>
-              <br>
-
-              <div class="row skills-content">
-                <div class="col-md-4">
-                  <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22288%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20288%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_184890280cf%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_184890280cf%22%3E%3Crect%20width%3D%22288%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2296.84375%22%20y%3D%22118.8%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
-                    <div class="card-body">
-                      <p class="card-text">TuVotoSiMX</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a type="button" target="_blank" class="btn btn-sm btn-outline-secondary" href="https://play.google.com/store/apps/details?id=com.TuVotoSiMXAPP&hl=es_MX&gl=US&pli=1">Go to Web Page</a>
-                        </div>
-                        <small class="text-muted">by ColimaSoft</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22288%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20288%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_184890280cf%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_184890280cf%22%3E%3Crect%20width%3D%22288%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2296.84375%22%20y%3D%22118.8%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
-                    <div class="card-body">
-                      <p class="card-text">INTECON WEB</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a type="button" target="_blank" class="btn btn-sm btn-outline-secondary" href="https://solicitudes.cimalogistic.com/inteconweb/index.html#!/elegir">Go to Inteconweb</a>
-                        </div>
-                        <small class="text-muted">by Group CIMA</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22288%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20288%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_184890280cf%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_184890280cf%22%3E%3Crect%20width%3D%22288%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2296.84375%22%20y%3D%22118.8%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
-                    <div class="card-body">
-                      <p class="card-text">Natural Scents</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                          <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">by Punto Commerce</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22288%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20288%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_184890280cf%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_184890280cf%22%3E%3Crect%20width%3D%22288%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2296.84375%22%20y%3D%22118.8%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" data-holder-rendered="true">
-                    <div class="card-body">
-                      <p class="card-text">Face Watch</p>
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                          <a type="button" class="btn btn-sm btn-outline-secondary" href="https://solicitudes.cimalogistic.com/inteconweb/index.html#!/elegir">Go to Inteconweb</a>
-                        </div>
-                        <small class="text-muted">Project Freelance by Miguel Fletes</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> -->
-
-
             <section id="playlist" class="content content-playlist resume section-bg">
                 <div class="container">
                     <div class="row">
@@ -647,6 +607,14 @@
 
                 <div #swiperRef="" class="swiper mySwiper">
                     <div class="swiper-wrapper">
+
+                        <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-05-15_22-55-54.jpg?text=37" data-toggle="lightbox"
+                                data-title="Sea" data-gallery="gallery">
+                                <img src="img/photo_2023-05-15_22-55-54.jpg?text=37" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
 
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-05-11_21-18-24.jpg?text=36" data-toggle="lightbox"
