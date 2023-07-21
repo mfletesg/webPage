@@ -16,8 +16,8 @@
 				"text"	: ""
 			},
 			"item3": {
-				"title" : "age",
-				"text"	: "28 years"
+				"title" : "Favorite Language",
+				"text"	: "JavaScript and PHP"
 			},
 			"item4": {
 				"title" : "hobbies",
@@ -98,8 +98,8 @@
 				"text"	: ""
 			},
 			"item3": {
-				"title" : "edad",
-				"text"	: "28 años"
+				"title" : "lenguaje_programacion",
+				"text"	: "JavaScript y PHP"
 			},
 			"item4": {
 				"title" : "pasatiempos",

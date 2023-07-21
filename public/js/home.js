@@ -47,6 +47,8 @@ $(document).ready(function () {
         slidesPerView: 3,
         centeredSlides: true,
         spaceBetween: 30,
+        lazy: true,
+        preloadImages: true,
         pagination: {
             el: ".swiper-pagination",
             type: "fraction",
@@ -159,11 +161,9 @@ async function sendEmail() {
         }
         clearInpurContact()
         showNotificationSuccess('Message sent successfully', 'Thanks for getting in contact with me. 🤘');
-        console.log(response);
     } catch (e) {
         showLoading(false);
         disabledButtonEmail(false);
-        console.log(e);
     }
 }
 
@@ -186,7 +186,6 @@ function validateFormContact() {
         return false;
     }
 
-    console.log(validaEmail(document.getElementById('inputEmail').value))
 
     if (document.getElementById('inputSubject').value === null || document.getElementById('inputSubject').value === '') {
         document.getElementById('inputSubject').focus();
@@ -253,7 +252,6 @@ function setLanguage() {
 
     } else {
         idLanguage = localStorage.getItem('idLanguage');
-        console.log(idLanguage);
     }
 
 
@@ -262,23 +260,16 @@ function setLanguage() {
 
 
 function getLanguage(idLanguage) {
-    console.log(idLanguage)
     fetch('/language/home.json?1.0.3')
         .then(response => response.json())
         .then(data => {
-
-            console.log(data);
-
             const typed = document.getElementById('textAbout');
             if (typed) {
                 try {
                     objectTyped.destroy();
 
                 } catch (e) {
-                    console.log(e)
                 }
-
-                console.log(data[idLanguage].infoGeneral.Iam);
 
                 let typed_strings = data[idLanguage].infoGeneral.Iam;
                 //let typed_strings = typed.getAttribute('data-typed-items')

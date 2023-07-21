@@ -51,6 +51,20 @@
 
 <body>
 
+    <style>
+        .body{
+            background-color:rgb(24, 24, 24) !important;
+        }
+
+        .wrapper{
+            background-color: rgb(24, 24, 24) !important;
+        }
+
+        html{
+            background-color: rgb(24, 24, 24) !important;
+        }
+    </style>
+
     <div class="wrapper">
         <div class="container">
             <div class="row">

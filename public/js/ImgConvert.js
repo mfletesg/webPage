@@ -32,7 +32,18 @@ async function convertIMG() {
 
         const cipheredText = response.message;
         const shift = 3;
-        const decipheredText = caesarDecipher(cipheredText, shift);
+        const decipheredText = caesarDecipher(cipheredText, shift)
+
+        var archivoBlob = new Blob([decipheredText], { type: 'text/plain' });
+
+        const enlaceDescarga = document.createElement('a');
+        enlaceDescarga.href = URL.createObjectURL(archivoBlob);
+        enlaceDescarga.download = response.fileIMG;
+        enlaceDescarga.click();
+        URL.revokeObjectURL(enlaceDescarga.href);
+
+
+
         console.log(decipheredText);
 
         //response = await res.blob()

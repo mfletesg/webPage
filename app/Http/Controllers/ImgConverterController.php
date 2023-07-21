@@ -46,20 +46,18 @@ class ImgConverterController extends Controller
         $image = imagecreatefromstring(base64_decode($imageData));
         imagewebp($image, public_path('img/image.webp'));
 
-
         $shift = 3;
         $cipheredText = $this->caesarCipher($imageData, $shift);
 
         $filename = pathinfo($fileName, PATHINFO_FILENAME);
 
-        //Storage::disk('local')->put('file212.txt', '122');
 
         File::put('img/photos/'.$filename.'.txt',$cipheredText);
 
-        error_log('Hola Mundo');
+        // error_log('Hola Mundo');
 
 
-        $response = array('message' => $cipheredText, 'img' => $filename);
+        $response = array('message' => $cipheredText, 'img' => $filename, 'fileName' => $request->file('fileIMG')->getClientOriginalName());
         return json_encode($response);
     }
 
