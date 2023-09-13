@@ -16,7 +16,7 @@
 				"text"	: ""
 			},
 			"item3": {
-				"title" : "Favorite Language",
+				"title" : "language",
 				"text"	: "JavaScript and PHP"
 			},
 			"item4": {
@@ -98,7 +98,7 @@
 				"text"	: ""
 			},
 			"item3": {
-				"title" : "lenguaje_programacion",
+				"title" : "lenguaje",
 				"text"	: "JavaScript y PHP"
 			},
 			"item4": {

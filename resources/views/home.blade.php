@@ -536,6 +536,13 @@
                 <div #swiperRef="" class="swiper mySwiper">
                     <div class="swiper-wrapper">
 
+                    <div class="swiper-slide swiper-slide-photo">
+                            <a href="img/photo_2023-09-07_18-33-42.jpg?text=39" data-toggle="lightbox"
+                                data-title="😀" data-gallery="gallery">
+                                <img src="img/photo_2023-09-07_18-33-42.jpg?text=39" class="img-fluid img-photo mb-2"
+                                    alt="black sample" />
+                            </a>
+                        </div>
 
                         <div class="swiper-slide swiper-slide-photo">
                             <a href="img/photo_2023-07-15_13-54-42.jpg?text=38" data-toggle="lightbox"
