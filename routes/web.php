@@ -17,8 +17,10 @@ use App\Http\Controllers\ImgConverterController;
 */
 
 Route::get('/', function () {
-    // return view('home');
+    return view('index', ['name' => $_SERVER['REMOTE_ADDR']]);
+});
 
+Route::get('/cv', function () {
     return view('home', ['name' => $_SERVER['REMOTE_ADDR']]);
 });
 
